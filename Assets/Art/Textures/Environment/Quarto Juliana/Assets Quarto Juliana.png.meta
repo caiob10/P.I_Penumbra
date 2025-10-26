@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: 2e05ddb651bf54343930e3d72ec6c952
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4336614994322841316
+    second: Assets Quarto Juliana_0
+  - first:
+      213: 7164217310753185668
+    second: Assets Quarto Juliana_1
+  - first:
+      213: -9081340025802566424
+    second: Assets Quarto Juliana_2
+  - first:
+      213: 6278869373575769772
+    second: Assets Quarto Juliana_3
+  - first:
+      213: 1574956843619397406
+    second: Assets Quarto Juliana_4
+  - first:
+      213: 2914072152843776621
+    second: Assets Quarto Juliana_5
+  - first:
+      213: -2480285553468513828
+    second: Assets Quarto Juliana_6
+  - first:
+      213: -3784514763613819720
+    second: Assets Quarto Juliana_7
+  - first:
+      213: 1901161460269784641
+    second: Assets Quarto Juliana_8
+  - first:
+      213: 6093756051378801856
+    second: Assets Quarto Juliana_9
+  - first:
+      213: -6432520704535325224
+    second: Assets Quarto Juliana_10
+  - first:
+      213: -7391460170261709545
+    second: Assets Quarto Juliana_11
+  - first:
+      213: -8660866347982934093
+    second: Assets Quarto Juliana_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Assets Quarto Juliana_0
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 324
+        width: 214
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1121c793af31d3c0800000000000000
+      internalID: -4336614994322841316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets Quarto Juliana_1
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 602
+        width: 80
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48fd52dbfa96c6360800000000000000
+      internalID: 7164217310753185668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets Quarto Juliana_2
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 640
+        width: 103
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e4508d8c5998f180800000000000000
+      internalID: -9081340025802566424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets Quarto Juliana_3
+      rect:
+        serializedVersion: 2
+        x: 2236
+        y: 703
+        width: 167
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cae201bad66032750800000000000000
+      internalID: 6278869373575769772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets Quarto Juliana_4
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 185
+        width: 280
+        height: 393
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1f2180a7ee5bd510800000000000000
+      internalID: 1574956843619397406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets Quarto Juliana_5
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 548
+        width: 83
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d627c100f2dd07820800000000000000
+      internalID: 2914072152843776621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets Quarto Juliana_6
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 325
+        width: 132
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd1e9f32e61449dd0800000000000000
+      internalID: -2480285553468513828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets Quarto Juliana_7
+      rect:
+        serializedVersion: 2
+        x: 1453
+        y: 555
+        width: 79
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bca39bafd3ba7bc0800000000000000
+      internalID: -3784514763613819720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets Quarto Juliana_8
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 554
+        width: 82
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14e1b0c7648426a10800000000000000
+      internalID: 1901161460269784641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets Quarto Juliana_9
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 556
+        width: 80
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cc0256b7de519450800000000000000
+      internalID: 6093756051378801856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets Quarto Juliana_10
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 325
+        width: 102
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d593db00881bb6a0800000000000000
+      internalID: -6432520704535325224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets Quarto Juliana_11
+      rect:
+        serializedVersion: 2
+        x: 2099
+        y: 258
+        width: 512
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71d3a1403224c6990800000000000000
+      internalID: -7391460170261709545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets Quarto Juliana_12
+      rect:
+        serializedVersion: 2
+        x: 2706
+        y: 263
+        width: 122
+        height: 262
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bfa75991fb6ec780800000000000000
+      internalID: -8660866347982934093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Assets Quarto Juliana_0: -4336614994322841316
+      Assets Quarto Juliana_1: 7164217310753185668
+      Assets Quarto Juliana_10: -6432520704535325224
+      Assets Quarto Juliana_11: -7391460170261709545
+      Assets Quarto Juliana_12: -8660866347982934093
+      Assets Quarto Juliana_2: -9081340025802566424
+      Assets Quarto Juliana_3: 6278869373575769772
+      Assets Quarto Juliana_4: 1574956843619397406
+      Assets Quarto Juliana_5: 2914072152843776621
+      Assets Quarto Juliana_6: -2480285553468513828
+      Assets Quarto Juliana_7: -3784514763613819720
+      Assets Quarto Juliana_8: 1901161460269784641
+      Assets Quarto Juliana_9: 6093756051378801856
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

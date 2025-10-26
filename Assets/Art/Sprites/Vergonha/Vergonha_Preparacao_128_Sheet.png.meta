@@ -1,0 +1,871 @@
+fileFormatVersion: 2
+guid: d3471c273f9afb4438a79a7cd27b3fd4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 319915035865679329
+    second: Vergonha_Preparacao_128_Sheet_0
+  - first:
+      213: 6322644968247549036
+    second: Vergonha_Preparacao_128_Sheet_1
+  - first:
+      213: -2889541057176690825
+    second: Vergonha_Preparacao_128_Sheet_2
+  - first:
+      213: 5764455777049424235
+    second: Vergonha_Preparacao_128_Sheet_3
+  - first:
+      213: 2177900924054016313
+    second: Vergonha_Preparacao_128_Sheet_4
+  - first:
+      213: -6902190502791568594
+    second: Vergonha_Preparacao_128_Sheet_5
+  - first:
+      213: 4872856320550962515
+    second: Vergonha_Preparacao_128_Sheet_6
+  - first:
+      213: 6174032010323433061
+    second: Vergonha_Preparacao_128_Sheet_7
+  - first:
+      213: 7278931228161414311
+    second: Vergonha_Preparacao_128_Sheet_8
+  - first:
+      213: -8288909374915410392
+    second: Vergonha_Preparacao_128_Sheet_9
+  - first:
+      213: -757260348567060691
+    second: Vergonha_Preparacao_128_Sheet_10
+  - first:
+      213: 1773929850606878720
+    second: Vergonha_Preparacao_128_Sheet_11
+  - first:
+      213: 1299902395578493522
+    second: Vergonha_Preparacao_128_Sheet_12
+  - first:
+      213: -169004667660522505
+    second: Vergonha_Preparacao_128_Sheet_13
+  - first:
+      213: 7589476269562790361
+    second: Vergonha_Preparacao_128_Sheet_14
+  - first:
+      213: 7744508106029258408
+    second: Vergonha_Preparacao_128_Sheet_15
+  - first:
+      213: 7054626902421641410
+    second: Vergonha_Preparacao_128_Sheet_16
+  - first:
+      213: -5175961019525486681
+    second: Vergonha_Preparacao_128_Sheet_17
+  - first:
+      213: -8807564919030889415
+    second: Vergonha_Preparacao_128_Sheet_18
+  - first:
+      213: 1635863506043724417
+    second: Vergonha_Preparacao_128_Sheet_19
+  - first:
+      213: 4391120225213386133
+    second: Vergonha_Preparacao_128_Sheet_20
+  - first:
+      213: -5827455930067737485
+    second: Vergonha_Preparacao_128_Sheet_21
+  - first:
+      213: -7541066745500771907
+    second: Vergonha_Preparacao_128_Sheet_22
+  - first:
+      213: -3052159536342207107
+    second: Vergonha_Preparacao_128_Sheet_23
+  - first:
+      213: -5493060458639190334
+    second: Vergonha_Preparacao_128_Sheet_24
+  - first:
+      213: -2043482758386999452
+    second: Vergonha_Preparacao_128_Sheet_25
+  - first:
+      213: 8196489763110697968
+    second: Vergonha_Preparacao_128_Sheet_26
+  - first:
+      213: 5408727522365781481
+    second: Vergonha_Preparacao_128_Sheet_27
+  - first:
+      213: -7331222457055705836
+    second: Vergonha_Preparacao_128_Sheet_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Vergonha_Preparacao_128_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 3
+        width: 51
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e58417b701907400800000000000000
+      internalID: 319915035865679329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vergonha_Preparacao_128_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 2
+        width: 51
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6c5e4d891c8eb750800000000000000
+      internalID: 6322644968247549036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vergonha_Preparacao_128_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 3
+        width: 51
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f931bc7b946e7d0800000000000000
+      internalID: -2889541057176690825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vergonha_Preparacao_128_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 3
+        width: 51
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b61ba72ecf57fff40800000000000000
+      internalID: 5764455777049424235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vergonha_Preparacao_128_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 4
+        width: 48
+        height: 53
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9311c36f955793e10800000000000000
+      internalID: 2177900924054016313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vergonha_Preparacao_128_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 4
+        width: 38
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e23a80d9e4e7630a0800000000000000
+      internalID: -6902190502791568594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vergonha_Preparacao_128_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 4
+        width: 37
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35505fb810ddf9340800000000000000
+      internalID: 4872856320550962515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vergonha_Preparacao_128_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 5
+        width: 39
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5661837e6619ea550800000000000000
+      internalID: 6174032010323433061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vergonha_Preparacao_128_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 4
+        width: 43
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a41f07f265f30560800000000000000
+      internalID: 7278931228161414311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vergonha_Preparacao_128_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 5
+        width: 39
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82603cc07d0e7fc80800000000000000
+      internalID: -8288909374915410392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vergonha_Preparacao_128_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 4
+        width: 44
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ffb21a9bbad75f0800000000000000
+      internalID: -757260348567060691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vergonha_Preparacao_128_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 4
+        width: 32
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00082e9ecc34e9810800000000000000
+      internalID: 1773929850606878720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vergonha_Preparacao_128_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 4
+        width: 33
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25aa223775e2a0210800000000000000
+      internalID: 1299902395578493522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vergonha_Preparacao_128_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 4
+        width: 39
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fb26b2762397adf0800000000000000
+      internalID: -169004667660522505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vergonha_Preparacao_128_Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1817
+        y: 4
+        width: 49
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d10c86d47c335960800000000000000
+      internalID: 7589476269562790361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vergonha_Preparacao_128_Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 4
+        width: 55
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a6d10c17150a7b60800000000000000
+      internalID: 7744508106029258408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vergonha_Preparacao_128_Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 2072
+        y: 4
+        width: 44
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c891cd6ac117e160800000000000000
+      internalID: 7054626902421641410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vergonha_Preparacao_128_Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 2206
+        y: 4
+        width: 32
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a72aeb40ea4b28b0800000000000000
+      internalID: -5175961019525486681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vergonha_Preparacao_128_Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 2333
+        y: 4
+        width: 33
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 934c8f0ee5e35c580800000000000000
+      internalID: -8807564919030889415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vergonha_Preparacao_128_Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 2460
+        y: 4
+        width: 39
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 182e2ca0131c3b610800000000000000
+      internalID: 1635863506043724417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vergonha_Preparacao_128_Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 2585
+        y: 4
+        width: 49
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d80e5649460fc30800000000000000
+      internalID: 4391120225213386133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vergonha_Preparacao_128_Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 2707
+        y: 4
+        width: 55
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 374a110f4b7b02fa0800000000000000
+      internalID: -5827455930067737485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vergonha_Preparacao_128_Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 2840
+        y: 4
+        width: 44
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db95aeecfbfb85790800000000000000
+      internalID: -7541066745500771907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vergonha_Preparacao_128_Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 2973
+        y: 4
+        width: 33
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d75708e921d84a5d0800000000000000
+      internalID: -3052159536342207107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vergonha_Preparacao_128_Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 3099
+        y: 4
+        width: 39
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c61119cd9ab4c3b0800000000000000
+      internalID: -5493060458639190334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vergonha_Preparacao_128_Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 4
+        width: 56
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46f15b1124714a3e0800000000000000
+      internalID: -2043482758386999452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vergonha_Preparacao_128_Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 3355
+        y: 4
+        width: 39
+        height: 76
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fbb65f3308cfb170800000000000000
+      internalID: 8196489763110697968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vergonha_Preparacao_128_Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 3485
+        y: 4
+        width: 33
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e5bd716609af0b40800000000000000
+      internalID: 5408727522365781481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vergonha_Preparacao_128_Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 3608
+        y: 4
+        width: 44
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41504dd8404424a90800000000000000
+      internalID: -7331222457055705836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Vergonha_Preparacao_128_Sheet_0: 319915035865679329
+      Vergonha_Preparacao_128_Sheet_1: 6322644968247549036
+      Vergonha_Preparacao_128_Sheet_10: -757260348567060691
+      Vergonha_Preparacao_128_Sheet_11: 1773929850606878720
+      Vergonha_Preparacao_128_Sheet_12: 1299902395578493522
+      Vergonha_Preparacao_128_Sheet_13: -169004667660522505
+      Vergonha_Preparacao_128_Sheet_14: 7589476269562790361
+      Vergonha_Preparacao_128_Sheet_15: 7744508106029258408
+      Vergonha_Preparacao_128_Sheet_16: 7054626902421641410
+      Vergonha_Preparacao_128_Sheet_17: -5175961019525486681
+      Vergonha_Preparacao_128_Sheet_18: -8807564919030889415
+      Vergonha_Preparacao_128_Sheet_19: 1635863506043724417
+      Vergonha_Preparacao_128_Sheet_2: -2889541057176690825
+      Vergonha_Preparacao_128_Sheet_20: 4391120225213386133
+      Vergonha_Preparacao_128_Sheet_21: -5827455930067737485
+      Vergonha_Preparacao_128_Sheet_22: -7541066745500771907
+      Vergonha_Preparacao_128_Sheet_23: -3052159536342207107
+      Vergonha_Preparacao_128_Sheet_24: -5493060458639190334
+      Vergonha_Preparacao_128_Sheet_25: -2043482758386999452
+      Vergonha_Preparacao_128_Sheet_26: 8196489763110697968
+      Vergonha_Preparacao_128_Sheet_27: 5408727522365781481
+      Vergonha_Preparacao_128_Sheet_28: -7331222457055705836
+      Vergonha_Preparacao_128_Sheet_3: 5764455777049424235
+      Vergonha_Preparacao_128_Sheet_4: 2177900924054016313
+      Vergonha_Preparacao_128_Sheet_5: -6902190502791568594
+      Vergonha_Preparacao_128_Sheet_6: 4872856320550962515
+      Vergonha_Preparacao_128_Sheet_7: 6174032010323433061
+      Vergonha_Preparacao_128_Sheet_8: 7278931228161414311
+      Vergonha_Preparacao_128_Sheet_9: -8288909374915410392
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

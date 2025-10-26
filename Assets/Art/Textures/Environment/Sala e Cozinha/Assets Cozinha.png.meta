@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: 0a8e1e98cbe01694da01a2adea2c1d5c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1767711036908298742
+    second: Assets Cozinha_0
+  - first:
+      213: -7887723389396733583
+    second: Assets Cozinha_1
+  - first:
+      213: 1635535132515616799
+    second: Assets Cozinha_2
+  - first:
+      213: 6981414792163631499
+    second: Assets Cozinha_3
+  - first:
+      213: 1939488441745863601
+    second: Assets Cozinha_4
+  - first:
+      213: 5886216213355320939
+    second: Assets Cozinha_5
+  - first:
+      213: 3044208126978674716
+    second: Assets Cozinha_6
+  - first:
+      213: 7181730617342883503
+    second: Assets Cozinha_7
+  - first:
+      213: -4985206264340129482
+    second: Assets Cozinha_8
+  - first:
+      213: -5827098293435370389
+    second: Assets Cozinha_9
+  - first:
+      213: -8256820189620741826
+    second: Assets Cozinha_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Assets Cozinha_0
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 434
+        width: 90
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f1e47482db288810800000000000000
+      internalID: 1767711036908298742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets Cozinha_1
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 597
+        width: 811
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 171b7784e5d298290800000000000000
+      internalID: -7887723389396733583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets Cozinha_2
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 430
+        width: 102
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f18c34f998692b610800000000000000
+      internalID: 1635535132515616799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets Cozinha_3
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 450
+        width: 209
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b81229ca3c7f2e060800000000000000
+      internalID: 6981414792163631499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets Cozinha_4
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 476
+        width: 190
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b3fc3046727aea10800000000000000
+      internalID: 1939488441745863601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets Cozinha_5
+      rect:
+        serializedVersion: 2
+        x: 1843
+        y: 191
+        width: 464
+        height: 338
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b665034a57a00b150800000000000000
+      internalID: 5886216213355320939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets Cozinha_6
+      rect:
+        serializedVersion: 2
+        x: 2439
+        y: 274
+        width: 147
+        height: 310
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c10dbee99233f3a20800000000000000
+      internalID: 3044208126978674716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets Cozinha_7
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 169
+        width: 210
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa6f44f22f1aaa360800000000000000
+      internalID: 7181730617342883503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets Cozinha_8
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 310
+        width: 109
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63954f9b05df0dab0800000000000000
+      internalID: -4985206264340129482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets Cozinha_9
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 152
+        width: 679
+        height: 323
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b64ff74b9fcf12fa0800000000000000
+      internalID: -5827098293435370389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets Cozinha_10
+      rect:
+        serializedVersion: 2
+        x: 2712
+        y: 336
+        width: 100
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e39d167b8c1e96d80800000000000000
+      internalID: -8256820189620741826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ccb86fb26e7b11049bf2bdde28950b2b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Assets Cozinha_0: 1767711036908298742
+      Assets Cozinha_1: -7887723389396733583
+      Assets Cozinha_10: -8256820189620741826
+      Assets Cozinha_2: 1635535132515616799
+      Assets Cozinha_3: 6981414792163631499
+      Assets Cozinha_4: 1939488441745863601
+      Assets Cozinha_5: 5886216213355320939
+      Assets Cozinha_6: 3044208126978674716
+      Assets Cozinha_7: 7181730617342883503
+      Assets Cozinha_8: -4985206264340129482
+      Assets Cozinha_9: -5827098293435370389
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

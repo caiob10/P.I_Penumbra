@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 4975c957041a7be46a71cc4bc60152c9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7666551111091306572
+    second: Assets Quarto Natalia_0
+  - first:
+      213: -1251553298458725513
+    second: Assets Quarto Natalia_1
+  - first:
+      213: -2511325110189654037
+    second: Assets Quarto Natalia_2
+  - first:
+      213: 9072819017894408442
+    second: Assets Quarto Natalia_3
+  - first:
+      213: 3886431347318986687
+    second: Assets Quarto Natalia_4
+  - first:
+      213: -7038182935472841266
+    second: Assets Quarto Natalia_5
+  - first:
+      213: 4704559591643349670
+    second: Assets Quarto Natalia_6
+  - first:
+      213: 3244066219599811222
+    second: Assets Quarto Natalia_7
+  - first:
+      213: 2089131737580883921
+    second: Assets Quarto Natalia_8
+  - first:
+      213: 4737883622949565641
+    second: Assets Quarto Natalia_9
+  - first:
+      213: 1635276992695905540
+    second: Assets Quarto Natalia_10
+  - first:
+      213: -4614173048087134170
+    second: Assets Quarto Natalia_11
+  - first:
+      213: 2214335688525836089
+    second: Assets Quarto Natalia_12
+  - first:
+      213: -6957791728665221866
+    second: Assets Quarto Natalia_13
+  - first:
+      213: -160767661044996463
+    second: Assets Quarto Natalia_14
+  - first:
+      213: 3119108453215670744
+    second: Assets Quarto Natalia_15
+  - first:
+      213: -7685534581372272872
+    second: Assets Quarto Natalia_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Assets Quarto Natalia_0
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 283
+        width: 117
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bfb6033260fa9590800000000000000
+      internalID: -7666551111091306572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets Quarto Natalia_1
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 418
+        width: 187
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77336e3f7e691aee0800000000000000
+      internalID: -1251553298458725513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets Quarto Natalia_2
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 321
+        width: 180
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bef70ab2e1bf52dd0800000000000000
+      internalID: -2511325110189654037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets Quarto Natalia_3
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 341
+        width: 142
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af03101b3d029ed70800000000000000
+      internalID: 9072819017894408442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets Quarto Natalia_4
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 47
+        width: 217
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb714ec18b06fe530800000000000000
+      internalID: 3886431347318986687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets Quarto Natalia_5
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 348
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecddceaf8e9535e90800000000000000
+      internalID: -7038182935472841266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets Quarto Natalia_6
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 347
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a20f84d504f94140800000000000000
+      internalID: 4704559591643349670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets Quarto Natalia_7
+      rect:
+        serializedVersion: 2
+        x: 1945
+        y: 347
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6925717f90d350d20800000000000000
+      internalID: 3244066219599811222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets Quarto Natalia_8
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 42
+        width: 277
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dfc0832f361efc10800000000000000
+      internalID: 2089131737580883921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets Quarto Natalia_9
+      rect:
+        serializedVersion: 2
+        x: 1864
+        y: 295
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c4bc0d7d0850c140800000000000000
+      internalID: 4737883622949565641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets Quarto Natalia_10
+      rect:
+        serializedVersion: 2
+        x: 2181
+        y: 38
+        width: 153
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40d2203c2cba1b610800000000000000
+      internalID: 1635276992695905540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets Quarto Natalia_11
+      rect:
+        serializedVersion: 2
+        x: 2554
+        y: 55
+        width: 166
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 620c5984f0a27ffb0800000000000000
+      internalID: -4614173048087134170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets Quarto Natalia_12
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 35
+        width: 361
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93f6d00a396eabe10800000000000000
+      internalID: 2214335688525836089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets Quarto Natalia_13
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 35
+        width: 84
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61522c76945f07f90800000000000000
+      internalID: -6957791728665221866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets Quarto Natalia_14
+      rect:
+        serializedVersion: 2
+        x: 1523
+        y: 35
+        width: 377
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 196ea000aa6d4cdf0800000000000000
+      internalID: -160767661044996463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets Quarto Natalia_15
+      rect:
+        serializedVersion: 2
+        x: 1954
+        y: 40
+        width: 136
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d196d9cc9c494b20800000000000000
+      internalID: 3119108453215670744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Assets Quarto Natalia_16
+      rect:
+        serializedVersion: 2
+        x: 2366
+        y: 59
+        width: 157
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81f3358940f775590800000000000000
+      internalID: -7685534581372272872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Assets Quarto Natalia_0: -7666551111091306572
+      Assets Quarto Natalia_1: -1251553298458725513
+      Assets Quarto Natalia_10: 1635276992695905540
+      Assets Quarto Natalia_11: -4614173048087134170
+      Assets Quarto Natalia_12: 2214335688525836089
+      Assets Quarto Natalia_13: -6957791728665221866
+      Assets Quarto Natalia_14: -160767661044996463
+      Assets Quarto Natalia_15: 3119108453215670744
+      Assets Quarto Natalia_16: -7685534581372272872
+      Assets Quarto Natalia_2: -2511325110189654037
+      Assets Quarto Natalia_3: 9072819017894408442
+      Assets Quarto Natalia_4: 3886431347318986687
+      Assets Quarto Natalia_5: -7038182935472841266
+      Assets Quarto Natalia_6: 4704559591643349670
+      Assets Quarto Natalia_7: 3244066219599811222
+      Assets Quarto Natalia_8: 2089131737580883921
+      Assets Quarto Natalia_9: 4737883622949565641
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

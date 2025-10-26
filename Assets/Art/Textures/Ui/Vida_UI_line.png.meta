@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 282b4e11f71581c42b29a17b33130379
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8269207486420726391
+    second: Vida_UI_line_0
+  - first:
+      213: 4442018903515082244
+    second: Vida_UI_line_1
+  - first:
+      213: -4189294013715975478
+    second: Vida_UI_line_2
+  - first:
+      213: -1266037467479941823
+    second: Vida_UI_line_3
+  - first:
+      213: -7230904319860397319
+    second: Vida_UI_line_4
+  - first:
+      213: 1472460664358603602
+    second: Vida_UI_line_5
+  - first:
+      213: -2484058545274974451
+    second: Vida_UI_line_6
+  - first:
+      213: -1378676587219285359
+    second: Vida_UI_line_7
+  - first:
+      213: 8261385796446220340
+    second: Vida_UI_line_8
+  - first:
+      213: 7094808062571242602
+    second: Vida_UI_line_9
+  - first:
+      213: 8935873647036139072
+    second: Vida_UI_line_10
+  - first:
+      213: -4033394663920884044
+    second: Vida_UI_line_11
+  - first:
+      213: -5815091137973577271
+    second: Vida_UI_line_12
+  - first:
+      213: 8055892901325723783
+    second: Vida_UI_line_13
+  - first:
+      213: 5314642538515612209
+    second: Vida_UI_line_14
+  - first:
+      213: -6693801164744852449
+    second: Vida_UI_line_15
+  - first:
+      213: 8035724114343743165
+    second: Vida_UI_line_16
+  - first:
+      213: 3169847759914965103
+    second: Vida_UI_line_17
+  - first:
+      213: 5453153616032072896
+    second: Vida_UI_line_18
+  - first:
+      213: -2732772494438912839
+    second: Vida_UI_line_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Vida_UI_line_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 157
+        width: 27
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98d44ed6a9fdd3d80800000000000000
+      internalID: -8269207486420726391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vida_UI_line_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 156
+        width: 39
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40e269d68a835ad30800000000000000
+      internalID: 4442018903515082244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vida_UI_line_2
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 64
+        width: 18
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac2f9c45a43acd5c0800000000000000
+      internalID: -4189294013715975478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vida_UI_line_3
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 72
+        width: 14
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14dd58e81a12e6ee0800000000000000
+      internalID: -1266037467479941823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vida_UI_line_4
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 131
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fa22e105daa6ab90800000000000000
+      internalID: -7230904319860397319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vida_UI_line_5
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 143
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25b84dc3c2b3f6410800000000000000
+      internalID: 1472460664358603602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vida_UI_line_6
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 112
+        width: 9
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0f8c970ae9d68dd0800000000000000
+      internalID: -2484058545274974451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vida_UI_line_7
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 109
+        width: 21
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19a85aec2f4fddce0800000000000000
+      internalID: -1378676587219285359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vida_UI_line_8
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 109
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43072a57c9656a270800000000000000
+      internalID: 8261385796446220340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vida_UI_line_9
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 103
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a64e22fc752d57260800000000000000
+      internalID: 7094808062571242602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vida_UI_line_10
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 107
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0460d59dcb9920c70800000000000000
+      internalID: 8935873647036139072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vida_UI_line_11
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 113
+        width: 8
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b62a0a4ce08608c0800000000000000
+      internalID: -4033394663920884044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vida_UI_line_12
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 70
+        width: 75
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c910907b65ac4fa0800000000000000
+      internalID: -5815091137973577271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vida_UI_line_13
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 103
+        width: 28
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7885c1c69e74ccf60800000000000000
+      internalID: 8055892901325723783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vida_UI_line_14
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 103
+        width: 28
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13247680b3761c940800000000000000
+      internalID: 5314642538515612209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vida_UI_line_15
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 81
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1c79425e47da13a0800000000000000
+      internalID: -6693801164744852449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vida_UI_line_16
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 83
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbecf74c180a48f60800000000000000
+      internalID: 8035724114343743165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vida_UI_line_17
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 80
+        width: 179
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f689cc93ebf8dfb20800000000000000
+      internalID: 3169847759914965103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vida_UI_line_18
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 47
+        width: 172
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c48a3d525e7dab40800000000000000
+      internalID: 5453153616032072896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vida_UI_line_19
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 47
+        width: 247
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bca20925ed331ad0800000000000000
+      internalID: -2732772494438912839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Vida_UI_line_0: -8269207486420726391
+      Vida_UI_line_1: 4442018903515082244
+      Vida_UI_line_10: 8935873647036139072
+      Vida_UI_line_11: -4033394663920884044
+      Vida_UI_line_12: -5815091137973577271
+      Vida_UI_line_13: 8055892901325723783
+      Vida_UI_line_14: 5314642538515612209
+      Vida_UI_line_15: -6693801164744852449
+      Vida_UI_line_16: 8035724114343743165
+      Vida_UI_line_17: 3169847759914965103
+      Vida_UI_line_18: 5453153616032072896
+      Vida_UI_line_19: -2732772494438912839
+      Vida_UI_line_2: -4189294013715975478
+      Vida_UI_line_3: -1266037467479941823
+      Vida_UI_line_4: -7230904319860397319
+      Vida_UI_line_5: 1472460664358603602
+      Vida_UI_line_6: -2484058545274974451
+      Vida_UI_line_7: -1378676587219285359
+      Vida_UI_line_8: 8261385796446220340
+      Vida_UI_line_9: 7094808062571242602
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

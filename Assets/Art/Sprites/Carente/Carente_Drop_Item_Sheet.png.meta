@@ -1,0 +1,351 @@
+fileFormatVersion: 2
+guid: 8530cbd031d0a0a4ab1dfd6ff2f9596d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9058125708271579808
+    second: Carente_Drop_Item_Sheet_0
+  - first:
+      213: 4600968414532222469
+    second: Carente_Drop_Item_Sheet_1
+  - first:
+      213: -4616475342637739557
+    second: Carente_Drop_Item_Sheet_2
+  - first:
+      213: 3345578434096104922
+    second: Carente_Drop_Item_Sheet_3
+  - first:
+      213: 8389921388198166684
+    second: Carente_Drop_Item_Sheet_4
+  - first:
+      213: -883590910572117944
+    second: Carente_Drop_Item_Sheet_5
+  - first:
+      213: -3015066017893014800
+    second: Carente_Drop_Item_Sheet_6
+  - first:
+      213: -7413006086630199454
+    second: Carente_Drop_Item_Sheet_7
+  - first:
+      213: -2760118875500369727
+    second: Carente_Drop_Item_Sheet_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Carente_Drop_Item_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 14
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06d83ab09a21b4280800000000000000
+      internalID: -9058125708271579808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carente_Drop_Item_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 14
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50e3cf2656ce9df30800000000000000
+      internalID: 4600968414532222469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carente_Drop_Item_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 14
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd15abf822cfeefb0800000000000000
+      internalID: -4616475342637739557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carente_Drop_Item_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 14
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad581843cd1ed6e20800000000000000
+      internalID: 3345578434096104922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carente_Drop_Item_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 14
+        width: 34
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9001050d0dfe6470800000000000000
+      internalID: 8389921388198166684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carente_Drop_Item_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 14
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 840c5909fbadcb3f0800000000000000
+      internalID: -883590910572117944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carente_Drop_Item_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 14
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f2a2256e655826d0800000000000000
+      internalID: -3015066017893014800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carente_Drop_Item_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 14
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26f29907d36bf1990800000000000000
+      internalID: -7413006086630199454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Carente_Drop_Item_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 14
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c823f7a18612b9d0800000000000000
+      internalID: -2760118875500369727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Carente_Drop_Item_Sheet_0: -9058125708271579808
+      Carente_Drop_Item_Sheet_1: 4600968414532222469
+      Carente_Drop_Item_Sheet_2: -4616475342637739557
+      Carente_Drop_Item_Sheet_3: 3345578434096104922
+      Carente_Drop_Item_Sheet_4: 8389921388198166684
+      Carente_Drop_Item_Sheet_5: -883590910572117944
+      Carente_Drop_Item_Sheet_6: -3015066017893014800
+      Carente_Drop_Item_Sheet_7: -7413006086630199454
+      Carente_Drop_Item_Sheet_8: -2760118875500369727
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

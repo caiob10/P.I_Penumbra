@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: 32187248bd1869f40819ae137c7017c7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1713319945452028418
+    second: PP_Run_Sheet_0
+  - first:
+      213: 2312590289458723712
+    second: PP_Run_Sheet_1
+  - first:
+      213: -8636795186084574981
+    second: PP_Run_Sheet_2
+  - first:
+      213: -1434718794034748089
+    second: PP_Run_Sheet_3
+  - first:
+      213: 9074681761405279116
+    second: PP_Run_Sheet_4
+  - first:
+      213: 7499973678204305177
+    second: PP_Run_Sheet_5
+  - first:
+      213: -3176422116433093926
+    second: PP_Run_Sheet_6
+  - first:
+      213: -499203986928764169
+    second: PP_Run_Sheet_7
+  - first:
+      213: 7222142447280417452
+    second: PP_Run_Sheet_8
+  - first:
+      213: 7722515292171773977
+    second: PP_Run_Sheet_9
+  - first:
+      213: 218525783912354207
+    second: PP_Run_Sheet_10
+  - first:
+      213: -5417755939483414231
+    second: PP_Run_Sheet_11
+  - first:
+      213: 8130261822155970170
+    second: PP_Run_Sheet_12
+  - first:
+      213: -5937177318458583855
+    second: PP_Run_Sheet_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PP_Run_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 4
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efd7db056901938e0800000000000000
+      internalID: -1713319945452028418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PP_Run_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 4
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b743a9d98f71020800000000000000
+      internalID: 2312590289458723712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PP_Run_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 4
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf800a7b980f32880800000000000000
+      internalID: -8636795186084574981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PP_Run_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 4
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7456bf8bbdad61ce0800000000000000
+      internalID: -1434718794034748089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PP_Run_Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 4
+        width: 38
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8b17467bfebfed70800000000000000
+      internalID: 9074681761405279116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PP_Run_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 4
+        width: 42
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91fb522e252451860800000000000000
+      internalID: 7499973678204305177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PP_Run_Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 4
+        width: 40
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ada9f4d1ae41be3d0800000000000000
+      internalID: -3176422116433093926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PP_Run_Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 4
+        width: 37
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7faf6a86e987219f0800000000000000
+      internalID: -499203986928764169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PP_Run_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 4
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa6b6f8a443a3460800000000000000
+      internalID: 7222142447280417452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PP_Run_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 4
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 918ab6a1eb2eb2b60800000000000000
+      internalID: 7722515292171773977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PP_Run_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 4
+        width: 32
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f911c5cea0c580300800000000000000
+      internalID: 218525783912354207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PP_Run_Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 4
+        width: 38
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92114537da340d4b0800000000000000
+      internalID: -5417755939483414231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PP_Run_Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 4
+        width: 42
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a76d6802d0e74d070800000000000000
+      internalID: 8130261822155970170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PP_Run_Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 4
+        width: 40
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d415c47fa8ea9da0800000000000000
+      internalID: -5937177318458583855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PP_Run_Sheet_0: -1713319945452028418
+      PP_Run_Sheet_1: 2312590289458723712
+      PP_Run_Sheet_10: 218525783912354207
+      PP_Run_Sheet_11: -5417755939483414231
+      PP_Run_Sheet_12: 8130261822155970170
+      PP_Run_Sheet_13: -5937177318458583855
+      PP_Run_Sheet_2: -8636795186084574981
+      PP_Run_Sheet_3: -1434718794034748089
+      PP_Run_Sheet_4: 9074681761405279116
+      PP_Run_Sheet_5: 7499973678204305177
+      PP_Run_Sheet_6: -3176422116433093926
+      PP_Run_Sheet_7: -499203986928764169
+      PP_Run_Sheet_8: 7222142447280417452
+      PP_Run_Sheet_9: 7722515292171773977
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
