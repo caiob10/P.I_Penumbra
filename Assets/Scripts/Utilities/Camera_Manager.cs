@@ -11,20 +11,23 @@ public class Camera_Manager : MonoBehaviour
 
     void Update()
     {
-         // Pega a posição atual da câmera
-            Vector3 pos = transform.position;
+        //Pega a posição atual da câmera
+        Vector3 pos = transform.position;
 
-            // Calcula a posição alvo no eixo X (posição do player + offset)
-            float targetX = player.position.x + offsetX;
-            float targetY = player.position.y + offsetY;
-            // Suaviza a movimentação da câmera no eixo X
-            pos.x = Mathf.Lerp(pos.x, targetX, smoothSpeed * Time.deltaTime);
-            pos.y = Mathf.Lerp(pos.y, targetY, smoothSpeed * Time.deltaTime);
-            // Atualiza a posição da câmera
-            transform.position = pos;
+        //Calcula a posição alvo no eixo X(posição do player + offset)
+        float targetX = player.position.x + offsetX;
+        float targetY = player.position.y + offsetY;
+        //Suaviza a movimentação da câmera no eixo X
+        pos.x = Mathf.Lerp(pos.x, targetX, smoothSpeed * Time.deltaTime);
+        pos.y = Mathf.Lerp(pos.y, targetY, smoothSpeed * Time.deltaTime);
+        //Atualiza a posição da câmera
+        transform.position = pos;
+
+
 
     }
-   
+
     
+
 
 }
