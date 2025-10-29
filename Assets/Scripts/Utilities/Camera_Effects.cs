@@ -51,10 +51,11 @@ public class Camera_Effects : MonoBehaviour
     }
     public IEnumerator fade()
     {
+        Debug.Log("iniciando Fade");
         fadeout();
         yield return new WaitForSeconds(2.5f);//tempo entre o fadeout e o fadein
         fadein();
-        
+        Debug.Log("fade terminou");
     }
     //=================================================================================
 
