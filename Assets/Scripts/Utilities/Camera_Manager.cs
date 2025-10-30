@@ -4,7 +4,7 @@ public class Camera_Manager : MonoBehaviour
 {
     [SerializeField] private Transform player; // Referência ao player (arraste no Inspector)
     [SerializeField] private float offsetX = 0f;                 // Distância da câmera em relação ao player no eixo X
-    [SerializeField] private float offsetY = 5f;                 // Distância da câmera em relação ao player no eixo Y
+    public float offsetY = 5f;                 // Distância da câmera em relação ao player no eixo Y
     [SerializeField] private float smoothSpeed = 10f;             // Velocidade da suavização do movimento da câmera
     public bool CameraLimite = false;
 

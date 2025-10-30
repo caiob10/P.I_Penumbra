@@ -1013,6 +1013,18 @@ PrefabInstance:
       propertyPath: cameraEffects
       value: 
       objectReference: {fileID: 1649691967}
+    - target: {fileID: 9149371694913500664, guid: caf769979840f7a43aaa96e776682798, type: 3}
+      propertyPath: cameraManager
+      value: 
+      objectReference: {fileID: 1649691966}
+    - target: {fileID: 9149371694913500664, guid: caf769979840f7a43aaa96e776682798, type: 3}
+      propertyPath: cameraPrincipal
+      value: 
+      objectReference: {fileID: 1649691963}
+    - target: {fileID: 9149371694913500664, guid: caf769979840f7a43aaa96e776682798, type: 3}
+      propertyPath: cameraSecundaria
+      value: 
+      objectReference: {fileID: 1819809382}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -33052,7 +33064,7 @@ Camera:
   far clip plane: 100
   field of view: 60
   orthographic: 1
-  orthographic size: 9
+  orthographic size: 5
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -33142,7 +33154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1580216140}
   offsetX: 0
-  offsetY: 5
+  offsetY: 3
   smoothSpeed: 10
   CameraLimite: 0
 --- !u!114 &1649691967

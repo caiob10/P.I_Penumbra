@@ -13,7 +13,9 @@ public class Player_Collision : MonoBehaviour
     // para a porta
     bool possoSair = false;
     public Camera_Effects cameraEffects;// para ativar o fade in
-
+    public Camera_Manager cameraManager;
+    public Camera cameraPrincipal;
+    public Camera cameraSecundaria;
  
     void Start()
     {
@@ -23,6 +25,7 @@ public class Player_Collision : MonoBehaviour
         // }
         pm = GetComponent<Player_Movement>();
         dm = GetComponent<Dialogo_Manager>();
+        
         // pegar SceneManager
         
     }
@@ -43,6 +46,10 @@ public class Player_Collision : MonoBehaviour
         pm.possoAndar = false;
         yield return new WaitForSeconds(1.5f);//tempo entre o fadeout e o fadein
         transform.position = new Vector3(25, -67, 0);
+        cameraManager.offsetY = 5f;
+        cameraPrincipal.orthographicSize = 9f;
+        cameraSecundaria.orthographicSize = 9f;
+        
         yield return new WaitForSeconds(1f);//tempo entre o fadeout e o fadein
         pm.possoAndar = true;
     }
