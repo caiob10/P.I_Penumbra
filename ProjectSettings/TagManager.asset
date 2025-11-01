@@ -20,7 +20,7 @@ TagManager:
   - CameraLimite
   - LuzDeVisao
   - luz_interna
-  - Limite_Camera
+  - sairDoQuarto
   layers:
   - Default
   - TransparentFX
