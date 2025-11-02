@@ -25,17 +25,21 @@ public class Audio_Manager : MonoBehaviour
 
     private void Start()
     {
+        if (audioPlayer == null || trilhas == null || trilhas.Length == 0)
+            return; // sai do método se não for usado para trilhas
+
         audioPlayer.clip = trilhas[indexClip];
         audioPlayer.Play();
     }
 
-
     private void Update()
     {
+        if (audioPlayer == null || trilhas == null || trilhas.Length == 0)
+            return;
+
         if (!audioPlayer.isPlaying)
         {
             indexClip++;
-            
 
             if (indexClip >= trilhas.Length)
             {
@@ -45,8 +49,6 @@ public class Audio_Manager : MonoBehaviour
             audioPlayer.clip = trilhas[indexClip];
             audioPlayer.Play();
         }
-
-        
-
     }
+
 }
