@@ -1,28 +1,40 @@
 fileFormatVersion: 2
-guid: e2f95c19c69124a48a6dc775712e70f2
+guid: f3611bdd77c0c414fae334cf95e368f0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 115778873868893700
-    second: "UI_Bot\xF5es_Tutorial_0"
+      213: -5551395295314988458
+    second: Raiva_AtaqueNoXao_Sheet_0
   - first:
-      213: -8330394412589587585
-    second: "UI_Bot\xF5es_Tutorial_1"
+      213: 2295523277706877190
+    second: Raiva_AtaqueNoXao_Sheet_1
   - first:
-      213: -1409664520609651339
-    second: "UI_Bot\xF5es_Tutorial_2"
+      213: 6546808272488218424
+    second: Raiva_AtaqueNoXao_Sheet_2
   - first:
-      213: -5341960855960310739
-    second: "UI_Bot\xF5es_Tutorial_3"
+      213: -7698129140994284553
+    second: Raiva_AtaqueNoXao_Sheet_3
   - first:
-      213: -2573814290889168320
-    second: "UI_Bot\xF5es_Tutorial_4"
+      213: -4775145999730544729
+    second: Raiva_AtaqueNoXao_Sheet_4
   - first:
-      213: -8580277300534462186
-    second: "UI_Bot\xF5es_Tutorial_5"
+      213: 9221236447081475689
+    second: Raiva_AtaqueNoXao_Sheet_5
   - first:
-      213: 3768192483416702170
-    second: "UI_Bot\xF5es_Tutorial_6"
+      213: 5190091272132733741
+    second: Raiva_AtaqueNoXao_Sheet_6
+  - first:
+      213: -467342914907083872
+    second: Raiva_AtaqueNoXao_Sheet_7
+  - first:
+      213: -6582970392746478084
+    second: Raiva_AtaqueNoXao_Sheet_8
+  - first:
+      213: -5746076050898592318
+    second: Raiva_AtaqueNoXao_Sheet_9
+  - first:
+      213: -2884509118108906184
+    second: Raiva_AtaqueNoXao_Sheet_10
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -55,7 +67,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -93,7 +105,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -118,13 +130,57 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "UI_Bot\xF5es_Tutorial_0"
+      name: Raiva_AtaqueNoXao_Sheet_0
       rect:
         serializedVersion: 2
-        x: 15
-        y: 79
+        x: 42
+        y: 1
+        width: 169
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 652b9f6346b75f2b0800000000000000
+      internalID: -5551395295314988458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raiva_AtaqueNoXao_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 16
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 609db5542465bdf10800000000000000
+      internalID: 2295523277706877190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raiva_AtaqueNoXao_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 4
         width: 18
-        height: 18
+        height: 13
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -133,20 +189,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 40e3379b5445b9100800000000000000
-      internalID: 115778873868893700
+      spriteID: 83fbf36ff6feada50800000000000000
+      internalID: 6546808272488218424
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "UI_Bot\xF5es_Tutorial_1"
+      name: Raiva_AtaqueNoXao_Sheet_3
       rect:
         serializedVersion: 2
-        x: 47
-        y: 79
-        width: 18
-        height: 18
+        x: 320
+        y: 1
+        width: 194
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,20 +211,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f73e2b60b6e746c80800000000000000
-      internalID: -8330394412589587585
+      spriteID: 7f3e3fb2550ca2590800000000000000
+      internalID: -7698129140994284553
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "UI_Bot\xF5es_Tutorial_2"
+      name: Raiva_AtaqueNoXao_Sheet_4
       rect:
         serializedVersion: 2
-        x: 63
-        y: 95
-        width: 59
-        height: 18
+        x: 593
+        y: 1
+        width: 175
+        height: 109
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -177,20 +233,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5752794569ddf6ce0800000000000000
-      internalID: -1409664520609651339
+      spriteID: 7afee6753064bbdb0800000000000000
+      internalID: -4775145999730544729
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "UI_Bot\xF5es_Tutorial_3"
+      name: Raiva_AtaqueNoXao_Sheet_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 63
-        width: 17
-        height: 18
+        x: 872
+        y: 1
+        width: 163
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -199,20 +255,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d2ca17887ea8dd5b0800000000000000
-      internalID: -5341960855960310739
+      spriteID: 96e2d2241b968ff70800000000000000
+      internalID: 9221236447081475689
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "UI_Bot\xF5es_Tutorial_4"
+      name: Raiva_AtaqueNoXao_Sheet_6
       rect:
         serializedVersion: 2
-        x: 15
-        y: 47
-        width: 18
-        height: 18
+        x: 1142
+        y: 1
+        width: 201
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,20 +277,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 04a2ab10a89f74cd0800000000000000
-      internalID: -2573814290889168320
+      spriteID: d2ba3538388e60840800000000000000
+      internalID: 5190091272132733741
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "UI_Bot\xF5es_Tutorial_5"
+      name: Raiva_AtaqueNoXao_Sheet_7
       rect:
         serializedVersion: 2
-        x: 31
-        y: 63
-        width: 18
-        height: 18
+        x: 1399
+        y: 0
+        width: 233
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -243,20 +299,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 619bb43614bbce880800000000000000
-      internalID: -8580277300534462186
+      spriteID: 0abeaa0581aa389f0800000000000000
+      internalID: -467342914907083872
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "UI_Bot\xF5es_Tutorial_6"
+      name: Raiva_AtaqueNoXao_Sheet_8
       rect:
         serializedVersion: 2
-        x: 63
-        y: 63
-        width: 33
-        height: 18
+        x: 1654
+        y: 1
+        width: 55
+        height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -265,8 +321,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: adc7953591f4b4430800000000000000
-      internalID: 3768192483416702170
+      spriteID: cf5be6d4e4794a4a0800000000000000
+      internalID: -6582970392746478084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raiva_AtaqueNoXao_Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 1
+        width: 160
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cd5fc59646d140b0800000000000000
+      internalID: -5746076050898592318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raiva_AtaqueNoXao_Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1873
+        y: 1
+        width: 52
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83d4eb76d3a28f7d0800000000000000
+      internalID: -2884509118108906184
       vertices: []
       indices: 
       edges: []
@@ -285,13 +385,17 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "UI_Bot\xF5es_Tutorial_0": 115778873868893700
-      "UI_Bot\xF5es_Tutorial_1": -8330394412589587585
-      "UI_Bot\xF5es_Tutorial_2": -1409664520609651339
-      "UI_Bot\xF5es_Tutorial_3": -5341960855960310739
-      "UI_Bot\xF5es_Tutorial_4": -2573814290889168320
-      "UI_Bot\xF5es_Tutorial_5": -8580277300534462186
-      "UI_Bot\xF5es_Tutorial_6": 3768192483416702170
+      Raiva_AtaqueNoXao_Sheet_0: -5551395295314988458
+      Raiva_AtaqueNoXao_Sheet_1: 2295523277706877190
+      Raiva_AtaqueNoXao_Sheet_10: -2884509118108906184
+      Raiva_AtaqueNoXao_Sheet_2: 6546808272488218424
+      Raiva_AtaqueNoXao_Sheet_3: -7698129140994284553
+      Raiva_AtaqueNoXao_Sheet_4: -4775145999730544729
+      Raiva_AtaqueNoXao_Sheet_5: 9221236447081475689
+      Raiva_AtaqueNoXao_Sheet_6: 5190091272132733741
+      Raiva_AtaqueNoXao_Sheet_7: -467342914907083872
+      Raiva_AtaqueNoXao_Sheet_8: -6582970392746478084
+      Raiva_AtaqueNoXao_Sheet_9: -5746076050898592318
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

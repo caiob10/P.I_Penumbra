@@ -6,6 +6,14 @@ public class Player_Status : MonoBehaviour
     [HideInInspector]public float vida = 100;
 
     Ui_Manager um;
+    void Start()
+    {
+        GameObject uiObj = GameObject.FindGameObjectWithTag("Umanager");
+        if (uiObj != null)
+        {
+            um = uiObj.GetComponent<Ui_Manager>();
+        } 
+    }
   
     //private bool visão = true;
 
@@ -44,20 +52,8 @@ public class Player_Status : MonoBehaviour
     }
     public IEnumerator AumentarVida()
     {
-        // float vidaMaxima = 100f;
-        // float velocidade = 0.5f;
-
-        // while (ganhandoVida && vida < vidaMaxima) // <-- só aumenta enquanto o player estiver no raio
-        // {
-        //     vida = Mathf.Lerp(vida, vidaMaxima, velocidade * Time.deltaTime);
-
-        //     if (vida > vidaMaxima) vida = vidaMaxima;
-
-        //     AtualizarCoresVida();
-        //     yield return null;
-        // }
         // o de cima era a segunda opcao, carrega a vida cheia de uma vez porem gradualmente e precisa destruir o "spaw de vida pra garantir que nao tem vida infinita"
-         float vidaMaxima = 100f;
+        float vidaMaxima = 100f;
     
         //  CORREÇÃO: Condição de parada clara
         while (vida < vidaMaxima)

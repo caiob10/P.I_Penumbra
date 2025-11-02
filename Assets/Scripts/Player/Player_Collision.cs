@@ -9,7 +9,7 @@ public class Player_Collision : MonoBehaviour
     // para texto
 
     
-    Dialogo_Manager dm;
+    //Dialogo_Manager dm;
     // para a porta
     bool possoSair = false;
     public Camera_Effects cameraEffects;// para ativar o fade in
@@ -24,7 +24,7 @@ public class Player_Collision : MonoBehaviour
         //     cameraEffects = FindFirstObjectByType<Camera_Effects>();
         // }
         pm = GetComponent<Player_Movement>();
-        dm = GetComponent<Dialogo_Manager>();
+        //dm = GetComponent<Dialogo_Manager>();
         
         // pegar SceneManager
         
@@ -84,7 +84,7 @@ public class Player_Collision : MonoBehaviour
     {
         if (collision.CompareTag("texto1") && collision.transform.root.gameObject.layer == LayerMask.NameToLayer("Player"))
         {
-            dm.Showtext();
+            //dm.Showtext();
             pm.possoAndar = false;
         }
 
@@ -109,11 +109,11 @@ public class Player_Collision : MonoBehaviour
         if (collision.CompareTag("texto1") && gameObject.layer == LayerMask.NameToLayer("Player"))
         {
             // só destrói a caixa se o diálogo já terminou
-            if (dm.fimDialogo())
-            {
-                // tentar definir o proximo valor do texto aqui
-                pm.possoAndar = true;
-            }
+            // if (dm.fimDialogo())
+            // {
+            //     // tentar definir o proximo valor do texto aqui
+            //     pm.possoAndar = true;
+            // }
             Destroy(collision.gameObject);
         }
          if (collision.gameObject.CompareTag("sairDoQuarto"))

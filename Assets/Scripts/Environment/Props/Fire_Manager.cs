@@ -7,7 +7,7 @@ public class Fire_Manager : MonoBehaviour
 
 {
     //fade paragerar um blur vermelho por posicao
-    public float raioVisao = 10.0f;
+    public float raioVisao = 3.0f;
     private float alphaAlvo = 0; // recebe o alpha por distancia do player(quando criei localmente, causava erro por frame)
     private float alphaAtual = 0;// é a variavel que recebera o alpha
     private Transform Player;
@@ -57,7 +57,7 @@ public class Fire_Manager : MonoBehaviour
 
 
 
-        Panel.color = new Color(0, 0, 0, 0);//uma garantia que sera vermelho no inicio do jogo
+        Panel.color = new Color(1, 0, 0, 0);//uma garantia que sera vermelho no inicio do jogo
 
 
     }
@@ -83,7 +83,7 @@ public class Fire_Manager : MonoBehaviour
             float alphaAtual = Panel.color.a;// pegar valor atual do alpha
 
             float novoAlpha = Mathf.MoveTowards(alphaAtual, alphaAlvo, velocidade * Time.deltaTime); // com o MoveTowards estou levando em consideração a posição A para B * valor
-            Panel.color = new Color(0, 0, 0, novoAlpha);
+            Panel.color = new Color(1, 0, 0, novoAlpha);
         
             Debug.Log("Alvo calculado: " + alphaAlvo);
             return; 
@@ -104,7 +104,7 @@ public class Fire_Manager : MonoBehaviour
             Debug.Log("pegoufogo");
             // -1 de vida
             Debug.Log(ps.vida);
-            ps.vida -= 1;
+            ps.vida -= 10;
             Debug.Log(ps.vida);
             if (ps.vida <= 0)
             {

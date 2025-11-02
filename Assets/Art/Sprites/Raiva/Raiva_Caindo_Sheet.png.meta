@@ -1,19 +1,16 @@
 fileFormatVersion: 2
-guid: 30ab16543967ee84fb7f2ef1940a73f3
+guid: 2bfa392c19956254a88693754610e0db
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4368029439698503856
-    second: DrSonho_Sheet_0
+      213: -5655409745046896715
+    second: Raiva_Caindo_Sheet_0
   - first:
-      213: -2897222121705316943
-    second: DrSonho_Sheet_1
+      213: 3018757990797638715
+    second: Raiva_Caindo_Sheet_1
   - first:
-      213: 8254043726499448195
-    second: DrSonho_Sheet_2
-  - first:
-      213: 5563672105570672535
-    second: DrSonho_Sheet_3
+      213: 144953104131323058
+    second: Raiva_Caindo_Sheet_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +43,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -60,7 +57,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 20
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -84,7 +81,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -109,13 +106,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DrSonho_Sheet_0
+      name: Raiva_Caindo_Sheet_0
       rect:
         serializedVersion: 2
-        x: 42
-        y: 4
-        width: 37
-        height: 64
+        x: 63
+        y: 1
+        width: 146
+        height: 101
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +121,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0b88da1f1ab5e9c30800000000000000
-      internalID: 4368029439698503856
+      spriteID: 5bf723fecc2f381b0800000000000000
+      internalID: -5655409745046896715
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DrSonho_Sheet_1
+      name: Raiva_Caindo_Sheet_1
       rect:
         serializedVersion: 2
-        x: 170
-        y: 4
-        width: 37
-        height: 62
+        x: 334
+        y: 1
+        width: 149
+        height: 109
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1bdd95894dffac7d0800000000000000
-      internalID: -2897222121705316943
+      spriteID: b3c7d580668c4e920800000000000000
+      internalID: 3018757990797638715
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DrSonho_Sheet_2
+      name: Raiva_Caindo_Sheet_2
       rect:
         serializedVersion: 2
-        x: 298
-        y: 4
-        width: 37
-        height: 60
+        x: 605
+        y: 1
+        width: 153
+        height: 106
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,30 +165,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3858a8699014c8270800000000000000
-      internalID: 8254043726499448195
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DrSonho_Sheet_3
-      rect:
-        serializedVersion: 2
-        x: 426
-        y: 4
-        width: 37
-        height: 62
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 79f1a4b6d42263d40800000000000000
-      internalID: 5563672105570672535
+      spriteID: 2b476d8841af20200800000000000000
+      internalID: 144953104131323058
       vertices: []
       indices: 
       edges: []
@@ -210,10 +185,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      DrSonho_Sheet_0: 4368029439698503856
-      DrSonho_Sheet_1: -2897222121705316943
-      DrSonho_Sheet_2: 8254043726499448195
-      DrSonho_Sheet_3: 5563672105570672535
+      Raiva_Caindo_Sheet_0: -5655409745046896715
+      Raiva_Caindo_Sheet_1: 3018757990797638715
+      Raiva_Caindo_Sheet_2: 144953104131323058
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

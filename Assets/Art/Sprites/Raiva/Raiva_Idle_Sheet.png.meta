@@ -1,19 +1,28 @@
 fileFormatVersion: 2
-guid: 30ab16543967ee84fb7f2ef1940a73f3
+guid: c0e43f728023fef468c0ad7f2d281216
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4368029439698503856
-    second: DrSonho_Sheet_0
+      213: 2606002778369350982
+    second: Raiva_Idle_Sheet_0
   - first:
-      213: -2897222121705316943
-    second: DrSonho_Sheet_1
+      213: -7860371208978104021
+    second: Raiva_Idle_Sheet_1
   - first:
-      213: 8254043726499448195
-    second: DrSonho_Sheet_2
+      213: -422124778998030761
+    second: Raiva_Idle_Sheet_2
   - first:
-      213: 5563672105570672535
-    second: DrSonho_Sheet_3
+      213: 527608669131144283
+    second: Raiva_Idle_Sheet_3
+  - first:
+      213: -6588782625144167715
+    second: Raiva_Idle_Sheet_4
+  - first:
+      213: 1615886929077604035
+    second: Raiva_Idle_Sheet_5
+  - first:
+      213: 2260420517789948498
+    second: Raiva_Idle_Sheet_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +55,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -60,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 20
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -84,7 +93,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -109,12 +118,78 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DrSonho_Sheet_0
+      name: Raiva_Idle_Sheet_0
       rect:
         serializedVersion: 2
-        x: 42
-        y: 4
-        width: 37
+        x: 56
+        y: 1
+        width: 158
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64dd26048b16a2420800000000000000
+      internalID: 2606002778369350982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raiva_Idle_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1
+        width: 164
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b21072e080a5ae290800000000000000
+      internalID: -7860371208978104021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raiva_Idle_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 0
+        width: 163
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75e9ee000cf442af0800000000000000
+      internalID: -422124778998030761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raiva_Idle_Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 1
+        width: 167
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -124,20 +199,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0b88da1f1ab5e9c30800000000000000
-      internalID: 4368029439698503856
+      spriteID: b5c7af70a41725700800000000000000
+      internalID: 527608669131144283
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DrSonho_Sheet_1
+      name: Raiva_Idle_Sheet_4
       rect:
         serializedVersion: 2
-        x: 170
-        y: 4
-        width: 37
-        height: 62
+        x: 1151
+        y: 0
+        width: 163
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,20 +221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1bdd95894dffac7d0800000000000000
-      internalID: -2897222121705316943
+      spriteID: dd2240e7c11ff84a0800000000000000
+      internalID: -6588782625144167715
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DrSonho_Sheet_2
+      name: Raiva_Idle_Sheet_5
       rect:
         serializedVersion: 2
-        x: 298
-        y: 4
-        width: 37
-        height: 60
+        x: 1429
+        y: 1
+        width: 160
+        height: 86
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,20 +243,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3858a8699014c8270800000000000000
-      internalID: 8254043726499448195
+      spriteID: 3ce0ed4c998cc6610800000000000000
+      internalID: 1615886929077604035
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DrSonho_Sheet_3
+      name: Raiva_Idle_Sheet_6
       rect:
         serializedVersion: 2
-        x: 426
-        y: 4
-        width: 37
-        height: 62
+        x: 1706
+        y: 1
+        width: 158
+        height: 97
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,8 +265,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 79f1a4b6d42263d40800000000000000
-      internalID: 5563672105570672535
+      spriteID: 25adfd51c70ae5f10800000000000000
+      internalID: 2260420517789948498
       vertices: []
       indices: 
       edges: []
@@ -210,10 +285,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      DrSonho_Sheet_0: 4368029439698503856
-      DrSonho_Sheet_1: -2897222121705316943
-      DrSonho_Sheet_2: 8254043726499448195
-      DrSonho_Sheet_3: 5563672105570672535
+      Raiva_Idle_Sheet_0: 2606002778369350982
+      Raiva_Idle_Sheet_1: -7860371208978104021
+      Raiva_Idle_Sheet_2: -422124778998030761
+      Raiva_Idle_Sheet_3: 527608669131144283
+      Raiva_Idle_Sheet_4: -6588782625144167715
+      Raiva_Idle_Sheet_5: 1615886929077604035
+      Raiva_Idle_Sheet_6: 2260420517789948498
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -98,7 +98,12 @@ public class Player_Movement : MonoBehaviour
             }
 
         }
-        
+        else
+        {
+            // é uma adaptação para quando o player estiver em diálogo não tocar a animação de andar
+            ani.SetFloat("correndo", 0f);
+        }
+
 
 
 
