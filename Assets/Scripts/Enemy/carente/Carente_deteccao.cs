@@ -1,14 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
-public class Medo_Deteccao : MonoBehaviour
-
+public class Carente_deteccao : MonoBehaviour
 {
-    
-    public float raioVisao = 30.0f;
-    //public Vector2 playerLocalizado { get; private set; }
+    public float raioVisao = 15.0f;
     public LayerMask playerLayer;
     
     public bool detectarPlayer()
@@ -21,22 +15,23 @@ public class Medo_Deteccao : MonoBehaviour
         
         if (col != null)
         {
-            //Debug.Log("col recebeu : "+ col.gameObject.name);
+            Debug.Log("col recebeu : "+ col.gameObject.name);
         }
         
         col = null;// to tentando garantir que a cada chamada, col esteja limpo e sem referencia
         if (col == null)
         {
-            //Debug.Log("col é null");
+            Debug.Log("col é null");
         }
-        //Debug.Log("valor de detectado: "+ detectado);
+        Debug.Log("valor de detectado: "+ detectado);
         return detectado;
 
     }
    
      void OnDrawGizmosSelected()
     {
-        Gizmos.color = Color.black;
+        Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, raioVisao);
+        
     }
 }

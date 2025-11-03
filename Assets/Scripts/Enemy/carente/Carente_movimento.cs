@@ -1,107 +1,98 @@
 using UnityEngine;
-
+using System.Collections;
 public class Carente_movimento : MonoBehaviour
 {
-public float velocidade = 10.0f;
-    public float altura = 10.0f;
-    public float raioVisao = 5.0f;
-    Rigidbody2D rb;
-    public LayerMask playerLayer;
-    Vector2 posicaoAtual;
-    Vector2 posicaoPlayer;
-    Transform Player;
-    // sistema para animar o pulo
-    public bool noChao;
-    public bool caindo;
-    float velY;
+    public float forcaY = 3f;// altura do pulo
+    public float forcaX = 1.5f;// velocidade do salto
+    //gravidade
+    public float gravidade = 1.0f;//subindo
+    public Rigidbody2D rb;
+    Carente_deteccao Cdeteccao;
     Animator ani;
-    bool noChaoAnterior; // para detectar aterrissagem
-
+    public bool estouNoChao;
+    //player
+    Transform Player;
+    // inspetor para monitoramento  
     void Start()
     {
-        Player = GameObject.FindGameObjectWithTag("Player").transform;
         rb = GetComponent<Rigidbody2D>();
+        Player = GameObject.FindGameObjectWithTag("Player").transform;
+        Cdeteccao = GetComponent<Carente_deteccao>();
         ani = GetComponent<Animator>();
     }
 
-    void Update()
-    {
-        //olha em direção ao player
-        if (Player.position.x > transform.position.x)
-        {
-            transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
-        }
-        else
-        {
-            transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
-        }
-
-        //==============================================================
-        //queda
-        velY = rb.linearVelocityY;
-        caindo = velY < -0.1f;
-
-        // detecta se acabou de tocar o chão (aterrissagem)
-        if (!noChaoAnterior && noChao)
-        {
-            ani.SetTrigger("Aterrissar");
-        }
-
-        // atualiza parâmetros do Animator
-        ani.SetBool("Nochao", noChao);
-        ani.SetBool("Caindo", caindo);
-
-        // sistema para ajustar pulo
-        if (!noChao && !caindo)
-        {
-            ani.SetTrigger("Pulando");
-        }
-        
-        //=========================================================================
-
-        // detecta o player dentro do raio de visão
-        Collider2D col = Physics2D.OverlapCircle(transform.position, raioVisao, playerLayer);
-        bool playerDentro = col != null && col.CompareTag("Player");
-        
-        // Só persegue o player se não estiver na animação de aterrissagem
-        bool podePerseguir = !ani.GetCurrentAnimatorStateInfo(0).IsName("encostouNoChao");
-
-        if (playerDentro && podePerseguir)
-        {
-            posicaoAtual = transform.position;
-            posicaoPlayer = Player.position;
-
-            // Ponto alto do salto (meio do caminho + altura)
-            Vector2 pontoAlto = (posicaoAtual + posicaoPlayer) / 2;
-            pontoAlto.y += altura;
-
-            // Move em arco
-            transform.position = Vector2.MoveTowards(transform.position, pontoAlto, velocidade * Time.deltaTime);
-        }
-
-        // atualiza histórico do chão
-        noChaoAnterior = noChao;
-    }
+    // Update is called once per frame
+   
     
-    void OnCollisionStay2D(Collision2D Collision)
+    public void saltar()
     {
-        if (Collision.gameObject.CompareTag("Plataforma") || Collision.gameObject.layer == LayerMask.NameToLayer("Chao"))
+
+        if (estouNoChao && Cdeteccao.detectarPlayer())
         {
-            noChao = true;
+            // ultima posição tem que receber player .position do deteccao
+            //ultimaPosicao = Player.position;
+
+            Debug.Log("posição player: " + Player.position);
+            Vector2 direcao = ((Vector2)Player.position - (Vector2)transform.position).normalized;
+            // essa float é a força necessaria pra chegar no player
+
+            direcao.y += forcaY * 0.1f;
+            direcao = direcao.normalized;
+            // AddForce em vez de velocity
+            // Usa forcaX 
+            rb.AddForce(direcao * forcaX * rb.mass, ForceMode2D.Impulse);
+            estouNoChao = false;
         }
     }
-
-    void OnTriggerExit2D(Collider2D collision)
+   
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (collision.gameObject.CompareTag("Plataforma") || collision.gameObject.layer == LayerMask.NameToLayer("Chao"))
+       
+        if (other.CompareTag("Player"))
         {
-            noChao = false;
-        }
-    }
+            Player_Status ps = other.GetComponent<Player_Status>();
+            if (ps != null)
+            {
+                ps.LevarDano(3);
+            }
+            if(!estouNoChao && rb.linearVelocity.y <= 0f)
+            {
+                //Impacto();// aplicando no momento de queda // gerou conflito com o knockback
+                Physics2D.IgnoreCollision(GetComponent<Collider2D>(), other, true);
+                //coroutine pra reabiliaar a colisão
+                StartCoroutine(Oncollision(other));
+            }
+            
 
-    void OnDrawGizmosSelected()
+        }   
+        
+    }
+    private void OnCollisionStay2D(Collision2D Collision)
     {
-        Gizmos.color = Color.yellow;
-        Gizmos.DrawWireSphere(transform.position, raioVisao);
+        if (Collision.gameObject.layer == LayerMask.NameToLayer("Chao"))
+        {
+            estouNoChao = true;
+            rb.gravityScale = gravidade;
+        }
+
+        
+    }
+    private void OnCollisionExit2D(Collision2D Collision)
+    {
+        if (Collision.gameObject.layer == LayerMask.NameToLayer("Chao"))
+        {
+            estouNoChao = false;
+        }
+
+    }
+    //tentando impedir de ficar em cima do player
+    
+    IEnumerator Oncollision(Collider2D playerCollider)
+    {
+        yield return new WaitForSeconds(0.5f);
+        
+        // Garante que reabilita
+        Physics2D.IgnoreCollision(GetComponent<Collider2D>(), playerCollider, false);
+        
     }
 }

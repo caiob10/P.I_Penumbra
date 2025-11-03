@@ -24,7 +24,7 @@ public class Raiva_deteccao : MonoBehaviour
         {
             Debug.Log("col é null");
         }
-        Debug.Log("valor de detectado: "+ detectado);
+        //Debug.Log("valor de detectado: "+ detectado);
         return detectado;
 
     }
