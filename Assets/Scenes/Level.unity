@@ -1107,11 +1107,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2571982756487584162, guid: caf769979840f7a43aaa96e776682798, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -105.24
+      value: -105.5
       objectReference: {fileID: 0}
     - target: {fileID: 2571982756487584162, guid: caf769979840f7a43aaa96e776682798, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -122.01
+      value: -122.1
       objectReference: {fileID: 0}
     - target: {fileID: 2571982756487584162, guid: caf769979840f7a43aaa96e776682798, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1937,6 +1937,8 @@ GameObject:
   - component: {fileID: 284774698}
   - component: {fileID: 284774700}
   - component: {fileID: 284774702}
+  - component: {fileID: 284774703}
+  - component: {fileID: 284774704}
   m_Layer: 9
   m_Name: Raiva
   m_TagString: Raiva
@@ -2004,7 +2006,7 @@ SpriteRenderer:
   m_SortingLayerID: -826507199
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 2606002778369350982, guid: c0e43f728023fef468c0ad7f2d281216, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2024,7 +2026,7 @@ Transform:
   m_GameObject: {fileID: 284774692}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.4, y: -41.1, z: 0}
+  m_LocalPosition: {x: -3.4, y: -45.51, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2064,17 +2066,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.09116125, y: 0.5032228}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 1.59, y: 0.95}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.3884258, y: 1.0279188}
   m_EdgeRadius: 0
 --- !u!114 &284774697
 MonoBehaviour:
@@ -2088,7 +2090,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2aafe9ddde256f45ae5ec682165a338, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  raioVisao: 15
+  raioVisao: 20
   playerLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -2139,17 +2141,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.09908825, y: 0.498234}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 1.59, y: 0.95}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.3884257, y: 1.0270094}
   m_EdgeRadius: 0
 --- !u!114 &284774700
 MonoBehaviour:
@@ -2167,6 +2169,7 @@ MonoBehaviour:
   forcaX: 20
   gravidade: 1
   gravidadeB: 5
+  rb: {fileID: 0}
   cf: {fileID: 1649691967}
   estouNoChao: 0
 --- !u!50 &284774701
@@ -2210,8 +2213,45 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   estadoAtual: 0
   batalhaAtivada: 1
+  executandoEstado: 0
   tempoUpdate: 0
   tempoDesejadoUpdate: 1
+--- !u!95 &284774703
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 284774692}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 40dcad21c923c3c40baa9c517fea75b5, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &284774704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 284774692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4732a0f0a7760fa488b52224cdf6bf5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correndo: 0
+  "VelocidadeDeAnima\xE7\xE3o": 0
 --- !u!1 &286199636
 GameObject:
   m_ObjectHideFlags: 0
@@ -34264,6 +34304,10 @@ PrefabInstance:
       propertyPath: m_SortingLayerID
       value: -2078515113
       objectReference: {fileID: 0}
+    - target: {fileID: 9203231842106752131, guid: 9d1b668900005ec4c8c2634974d01b48, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

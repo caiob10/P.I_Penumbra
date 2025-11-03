@@ -7,7 +7,7 @@ public class Raiva_saltos : MonoBehaviour
     //gravidade
     public float gravidade = 1.0f;//subindo
     public float gravidadeB = 30.0f;//caindo
-    Rigidbody2D rb;
+    public Rigidbody2D rb;
     Raiva_deteccao rd;
     public Camera_Effects cf;// colcoar efeito de tremer
     public bool estouNoChao;

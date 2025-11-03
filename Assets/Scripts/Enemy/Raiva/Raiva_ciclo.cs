@@ -14,11 +14,12 @@ public class Raiva_ciclo : MonoBehaviour
     //referencia para os outros scripts
     Raiva_deteccao rd;
     Raiva_saltos rs;
+    Raiva_animation raivaAnimation;
     // redução do "tempo" de checagem do update
     // update roda a 60 fps em media e a chagem esta muito alta para o switchCase
     // por esse motivo o switch só vai ser checado depois de 10X do tempo normal do update
     
-   
+    public bool executandoEstado = false;
     public float tempoUpdate = 0.0f; //tempo incrementado no update
     public float tempoDesejadoUpdate = 1f; // tempo final desejado
     // divisão de 1 segundo dividido pelo valor dos quadros .
@@ -37,105 +38,96 @@ public class Raiva_ciclo : MonoBehaviour
     {
         rd = GetComponent<Raiva_deteccao>();
         rs = GetComponent<Raiva_saltos>();
+        raivaAnimation = GetComponent<Raiva_animation>();
 
     }
 
    void Update()
     {
-        if (batalhaAtivada == false) return;
-        //tentando aumentar o intervalo entre as checagens
-        tempoUpdate += Time.deltaTime;// vai iniciar a contagem
+        if (!batalhaAtivada || executandoEstado) return;
+        
+        // Sistema de tempo reduzido mantido
+        tempoUpdate += Time.deltaTime;
         if (tempoUpdate >= tempoDesejadoUpdate)
         {
-
             switch (estadoAtual)
             {
-                
                 case Estado.Detectar:
-                    Debug.Log("o estado atuel é :"+ estadoAtual);
-                    if(rd.detectarPlayer())
-                    {
-                        estadoAtual = Estado.Saltar;
-                        Debug.Log(estadoAtual);
-                    
-                    }
-                    
-                   
-                //     if (!proximoEstado)
-                //     {
-                //         if ()
-                //         {
-                //             StartCoroutine(cooldown(1));
-                //         }
-                //     }
-                    // else if (!rd.detectarPlayer()) // 🎯 SUA IDEIA: Se player SAIR, reseta
-                    // {
-                    //     proximoEstado = false; // 🎯 Zera para detectar de novo quando player voltar
-                    //     Debug.Log("Player saiu - Resetando detecção");
-                    // }
-                    // else
-                    // {
-                    
-                    
-                    //     proximoEstado = false;
-                    //     Debug.Log("detectado");
-                    // }
+                    StartCoroutine(estadoDetectar());
                     break;
 
                 case Estado.Saltar:
-
-                    // if (!proximoEstado)
-                    // {
-                    Debug.Log("o estado atuel é :"+ estadoAtual);
-                    rs.saltar();
-                    //     StartCoroutine(cooldown(1));
-                    //     Debug.Log("Saltando...");
-                    //     proximoEstado = true;
-                    // }
-                    // else
-                    // {
-                    estadoAtual = Estado.Esperar;
-                    Debug.Log(estadoAtual);
-                    
-                    //     proximoEstado = false;
-                    // }
+                    StartCoroutine(estadoSaltar());
                     break;
 
                 case Estado.Esperar:
-
-                    // if (!proximoEstado)
-                    // {
-                    Debug.Log("o estado atuel é :"+ estadoAtual);
-                    StartCoroutine(cooldown(0.5f));
-                    Debug.Log("Esperando...");
-                    // }
-                    // else
-                    // {
-                    estadoAtual = Estado.Reiniciar;
-                    Debug.Log("o estado atuel é :"+ estadoAtual);
-                    
-                    //     proximoEstado = false;
-                    // }
+                    StartCoroutine(estadoEsperar());
                     break;
 
                 case Estado.Reiniciar:
-
-                    //     if (!proximoEstado)
-                    //     {
-                    estadoAtual = Estado.Detectar;
-                    Debug.Log("Reiniciando...");
+                    StartCoroutine(estadoReiniciar());
                     break;
             }
-            tempoUpdate = 0;   
+            tempoUpdate = 0;
         }
        
     }
-    
-
-
-    IEnumerator cooldown(float tempo)
+    IEnumerator estadoDetectar()
     {
-        yield return new WaitForSeconds(tempo);
-        estadoAtual = Estado.Reiniciar;
+        executandoEstado = true;
+        Debug.Log("Estado: Detectar");
+        raivaAnimation.SetIdle();
+        if (rd.detectarPlayer())
+        {
+            
+            estadoAtual = Estado.Saltar;
+            
+            Debug.Log("Player detectado! Mudando para o estado Saltar.");
+        }
+
+        executandoEstado = false;
+        yield return null;
     }
+    IEnumerator estadoSaltar()
+    {
+        executandoEstado = true;
+        Debug.Log("Estado: Saltar");
+        raivaAnimation.SetSubir();
+        rs.saltar();
+        estadoAtual = Estado.Esperar;
+        Debug.Log("Mudando para o estado Esperar.");
+        executandoEstado = false;
+        yield return null;
+    }
+    IEnumerator estadoEsperar()
+    {
+        executandoEstado = true;
+        Debug.Log("Estado: Esperar");
+        if (rs.estouNoChao)
+        {
+            raivaAnimation.SetCair();
+        }
+        //raivaAnimation.SetCair();
+        yield return new WaitForSeconds(0.1f); // Cooldown
+        
+        Debug.Log("Esperando...");
+        
+        estadoAtual = Estado.Reiniciar;
+        executandoEstado = false;
+    }
+
+    IEnumerator estadoReiniciar()
+    {
+        executandoEstado = true;
+        Debug.Log("Estado: Reiniciar");
+        raivaAnimation.SetIdle();
+        // Qualquer lógica de reset adicional pode ir aqui
+        
+        estadoAtual = Estado.Detectar;
+        Debug.Log("Reiniciando ciclo...");
+        
+        executandoEstado = false;
+        yield return null;
+    }
+    
 }

@@ -137,8 +137,8 @@ TextureImporter:
         y: 1
         width: 153
         height: 106
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -159,8 +159,8 @@ TextureImporter:
         y: 1
         width: 153
         height: 111
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -181,8 +181,8 @@ TextureImporter:
         y: 1
         width: 175
         height: 107
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -203,8 +203,8 @@ TextureImporter:
         y: 1
         width: 163
         height: 101
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -223,10 +223,10 @@ TextureImporter:
         serializedVersion: 2
         x: 1145
         y: 1
-        width: 166
-        height: 92
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 196
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -240,37 +240,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Raiva_CauXao_Sheet_5
-      rect:
-        serializedVersion: 2
-        x: 1260
-        y: 1
-        width: 83
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 686d5a7f91cff1390800000000000000
-      internalID: -7845274837396892026
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Raiva_CauXao_Sheet_6
       rect:
         serializedVersion: 2
         x: 1399
         y: 1
-        width: 187
-        height: 85
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 233
+        height: 88
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -284,59 +262,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Raiva_CauXao_Sheet_7
-      rect:
-        serializedVersion: 2
-        x: 1567
-        y: 1
-        width: 65
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f94a9cc913a4adfa0800000000000000
-      internalID: -5775221995204926305
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Raiva_CauXao_Sheet_8
-      rect:
-        serializedVersion: 2
-        x: 1654
-        y: 1
-        width: 55
-        height: 87
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c12fe9b7d75e0e1c0800000000000000
-      internalID: -4476325702498586084
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Raiva_CauXao_Sheet_9
       rect:
         serializedVersion: 2
-        x: 1695
+        x: 1656
         y: 1
-        width: 169
-        height: 80
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 269
+        height: 89
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -349,33 +283,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Raiva_CauXao_Sheet_10
-      rect:
-        serializedVersion: 2
-        x: 1873
-        y: 1
-        width: 52
-        height: 79
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 58ede453ecffe41d0800000000000000
-      internalID: -3364470610476474747
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 434906ef21093634891cbb7c9e7b0ced
     internalID: 0
     vertices: []
     indices: 

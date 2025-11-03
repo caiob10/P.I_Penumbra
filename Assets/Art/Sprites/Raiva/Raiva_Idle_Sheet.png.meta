@@ -55,7 +55,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -93,7 +93,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -122,11 +122,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 56
-        y: 1
-        width: 158
-        height: 97
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 3
+        width: 159
+        height: 95
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -143,12 +143,12 @@ TextureImporter:
       name: Raiva_Idle_Sheet_1
       rect:
         serializedVersion: 2
-        x: 329
-        y: 1
-        width: 164
-        height: 86
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 330
+        y: 3
+        width: 162
+        height: 83
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -166,11 +166,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 601
-        y: 0
+        y: 2
         width: 163
-        height: 75
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -188,11 +188,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 872
-        y: 1
-        width: 167
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 2
+        width: 166
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -209,12 +209,12 @@ TextureImporter:
       name: Raiva_Idle_Sheet_4
       rect:
         serializedVersion: 2
-        x: 1151
-        y: 0
-        width: 163
-        height: 75
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1152
+        y: 2
+        width: 161
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -232,11 +232,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1429
-        y: 1
-        width: 160
-        height: 86
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 2
+        width: 159
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -254,11 +254,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1706
-        y: 1
-        width: 158
-        height: 97
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 3
+        width: 157
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -275,7 +275,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: af659317f67cbb545b6bfc65fafc0035
     internalID: 0
     vertices: []
     indices: 
