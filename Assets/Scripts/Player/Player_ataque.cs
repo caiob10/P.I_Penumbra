@@ -9,13 +9,13 @@ public class Player_ataque : MonoBehaviour
     public float tempoEntreAtaques = 1.0f;// permite o ajsute do ataque via inspetor
     public float cooldownTimer;// timer para o cooldown que sera referenciado no UI
     // Update is called once per frame
-    
+    Animator ani;
     [SerializeField] private AudioSource ataqueUmSom;
 
     
     void Start()
     {
-        
+        ani = GetComponent<Animator>();
         cooldownTimer = tempoEntreAtaques;// inicia cheio
     }
     void Update()
@@ -30,7 +30,7 @@ public class Player_ataque : MonoBehaviour
         {
             dir = Vector2.left;
         }
-        origem = new Vector2(transform.position.x + dir.normalized.x * 1.0f, transform.position.y); // deslocamento de 3 unidades para frente
+        origem = new Vector2(transform.position.x + dir.normalized.x * 1.0f, transform.position.y + 1.0f); // deslocamento de 3 unidades para frente
         // efeito visual do cooldown
         if (!podeAtacar)
         {
@@ -43,7 +43,7 @@ public class Player_ataque : MonoBehaviour
             if (!podeAtacar) return;// if reduzido
 
             ataqueUmSom.Play();
-
+            ani.SetTrigger("ataque");// dispara a animação de ataque
             RaycastHit2D melee = Physics2D.Raycast(origem, dir, alcance);// disparo do raycast
             // os inimigos tem tags diferentes, então é preciso checar cada um
             // isso permite atacar mais de um inimigo por vez, se estiverem juntos

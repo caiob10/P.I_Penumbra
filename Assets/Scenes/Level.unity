@@ -1119,7 +1119,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2571982756487584162, guid: caf769979840f7a43aaa96e776682798, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -67.7
+      value: -69.49
       objectReference: {fileID: 0}
     - target: {fileID: 2571982756487584162, guid: caf769979840f7a43aaa96e776682798, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1153,10 +1153,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3939519686656687609, guid: caf769979840f7a43aaa96e776682798, type: 3}
+      propertyPath: m_Size.y
+      value: 2.858574
+      objectReference: {fileID: 0}
+    - target: {fileID: 3939519686656687609, guid: caf769979840f7a43aaa96e776682798, type: 3}
+      propertyPath: m_Offset.y
+      value: 1.4617119
+      objectReference: {fileID: 0}
+    - target: {fileID: 3939519686656687609, guid: caf769979840f7a43aaa96e776682798, type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5089232779556335979, guid: caf769979840f7a43aaa96e776682798, type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 7677568540507698747, guid: caf769979840f7a43aaa96e776682798, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -8023475335344816448, guid: f76374f60acf01b47ad73a6a0f528295, type: 3}
     - target: {fileID: 9149371694913500664, guid: caf769979840f7a43aaa96e776682798, type: 3}
       propertyPath: cameraEffects
       value: 
@@ -35885,7 +35901,7 @@ Transform:
   m_GameObject: {fileID: 2098202228}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.6, y: -68.03, z: 0}
+  m_LocalPosition: {x: 9.6, y: -69.55, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

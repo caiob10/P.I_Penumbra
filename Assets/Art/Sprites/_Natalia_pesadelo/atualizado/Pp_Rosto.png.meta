@@ -1,19 +1,10 @@
 fileFormatVersion: 2
-guid: 30ab16543967ee84fb7f2ef1940a73f3
+guid: df74b81d4c62c0b48a4ea1a40ba43c1e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4368029439698503856
-    second: DrSonho_Sheet_0
-  - first:
-      213: -2897222121705316943
-    second: DrSonho_Sheet_1
-  - first:
-      213: 8254043726499448195
-    second: DrSonho_Sheet_2
-  - first:
-      213: 5563672105570672535
-    second: DrSonho_Sheet_3
+      213: -7683328051833361045
+    second: Pp_Rosto_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -60,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 20
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -84,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -109,89 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DrSonho_Sheet_0
+      name: Pp_Rosto_0
       rect:
         serializedVersion: 2
-        x: 42
-        y: 4
-        width: 37
+        x: 15
+        y: 0
+        width: 45
         height: 64
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0b88da1f1ab5e9c30800000000000000
-      internalID: 4368029439698503856
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DrSonho_Sheet_1
-      rect:
-        serializedVersion: 2
-        x: 170
-        y: 4
-        width: 37
-        height: 62
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1bdd95894dffac7d0800000000000000
-      internalID: -2897222121705316943
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DrSonho_Sheet_2
-      rect:
-        serializedVersion: 2
-        x: 298
-        y: 4
-        width: 37
-        height: 60
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3858a8699014c8270800000000000000
-      internalID: 8254043726499448195
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DrSonho_Sheet_3
-      rect:
-        serializedVersion: 2
-        x: 426
-        y: 4
-        width: 37
-        height: 62
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 79f1a4b6d42263d40800000000000000
-      internalID: 5563672105570672535
+      spriteID: b6dada948d55f5590800000000000000
+      internalID: -7683328051833361045
       vertices: []
       indices: 
       edges: []
@@ -200,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 81f4420b43483f84981b2b15235f9033
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -210,10 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      DrSonho_Sheet_0: 4368029439698503856
-      DrSonho_Sheet_1: -2897222121705316943
-      DrSonho_Sheet_2: 8254043726499448195
-      DrSonho_Sheet_3: 5563672105570672535
+      Pp_Rosto_0: -7683328051833361045
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

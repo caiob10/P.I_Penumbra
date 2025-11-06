@@ -1,19 +1,16 @@
 fileFormatVersion: 2
-guid: 30ab16543967ee84fb7f2ef1940a73f3
+guid: 81a54152add4aa84eb53104be8fb2d20
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4368029439698503856
-    second: DrSonho_Sheet_0
+      213: -9200122891873750448
+    second: PP_Caindo_Sheet_0
   - first:
-      213: -2897222121705316943
-    second: DrSonho_Sheet_1
+      213: 5305227542297259677
+    second: PP_Caindo_Sheet_1
   - first:
-      213: 8254043726499448195
-    second: DrSonho_Sheet_2
-  - first:
-      213: 5563672105570672535
-    second: DrSonho_Sheet_3
+      213: 8000333180790128207
+    second: PP_Caindo_Sheet_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,13 +106,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DrSonho_Sheet_0
+      name: PP_Caindo_Sheet_0
       rect:
         serializedVersion: 2
-        x: 42
-        y: 4
-        width: 37
-        height: 64
+        x: 38
+        y: 9
+        width: 41
+        height: 63
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,19 +121,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0b88da1f1ab5e9c30800000000000000
-      internalID: 4368029439698503856
+      spriteID: 052fce369f8925080800000000000000
+      internalID: -9200122891873750448
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DrSonho_Sheet_1
+      name: PP_Caindo_Sheet_1
       rect:
         serializedVersion: 2
-        x: 170
-        y: 4
-        width: 37
+        x: 169
+        y: 6
+        width: 47
         height: 62
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -146,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1bdd95894dffac7d0800000000000000
-      internalID: -2897222121705316943
+      spriteID: d9e2f376754ff9940800000000000000
+      internalID: 5305227542297259677
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: DrSonho_Sheet_2
+      name: PP_Caindo_Sheet_2
       rect:
         serializedVersion: 2
         x: 298
-        y: 4
-        width: 37
-        height: 60
+        y: 3
+        width: 33
+        height: 57
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,30 +165,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3858a8699014c8270800000000000000
-      internalID: 8254043726499448195
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DrSonho_Sheet_3
-      rect:
-        serializedVersion: 2
-        x: 426
-        y: 4
-        width: 37
-        height: 62
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 79f1a4b6d42263d40800000000000000
-      internalID: 5563672105570672535
+      spriteID: f4e34cde3a4e60f60800000000000000
+      internalID: 8000333180790128207
       vertices: []
       indices: 
       edges: []
@@ -200,7 +175,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 81f4420b43483f84981b2b15235f9033
+    spriteID: ab42ef84fb8d82a4d8132dd0a82c87a9
     internalID: 0
     vertices: []
     indices: 
@@ -210,10 +185,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      DrSonho_Sheet_0: 4368029439698503856
-      DrSonho_Sheet_1: -2897222121705316943
-      DrSonho_Sheet_2: 8254043726499448195
-      DrSonho_Sheet_3: 5563672105570672535
+      PP_Caindo_Sheet_0: -9200122891873750448
+      PP_Caindo_Sheet_1: 5305227542297259677
+      PP_Caindo_Sheet_2: 8000333180790128207
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
