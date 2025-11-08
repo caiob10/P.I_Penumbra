@@ -68,7 +68,11 @@ public class Raiva_saltos : MonoBehaviour
     {
 
         Rigidbody2D rbPlayer = Player.GetComponent<Rigidbody2D>();
-        if (rbPlayer == null) return;
+        if (rbPlayer == null) 
+        {
+            Debug.Log("Player é null no impacto");
+            return;
+        }
         rbPlayer.linearVelocity = Vector2.zero;
         Vector2 direcao = Vector2.up.normalized;
         Magnitude = 5.0f;
@@ -113,7 +117,7 @@ public class Raiva_saltos : MonoBehaviour
             Player_Status ps = other.GetComponent<Player_Status>();
             if (ps != null)
             {
-                ps.LevarDano(1);
+                ps.LevarDano(7);
             }
             if(!estouNoChao && rb.linearVelocity.y <= 0f)
             {

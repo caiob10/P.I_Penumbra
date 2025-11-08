@@ -7,6 +7,7 @@ public class Carente_deteccao : MonoBehaviour
     
     public bool detectarPlayer()
     {
+        
         Collider2D col = Physics2D.OverlapCircle(transform.position, raioVisao, playerLayer);
         //é o player
 

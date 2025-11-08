@@ -14,6 +14,7 @@ public class Carente_ciclos : MonoBehaviour
     // Referências
     Carente_deteccao Cdeteccao;
     Carente_animation Canimation;
+    Carente_movimento Cmovimento;
 
     // Flags por estado
     
@@ -22,6 +23,7 @@ public class Carente_ciclos : MonoBehaviour
     {
         Cdeteccao = GetComponent<Carente_deteccao>();
         Canimation = GetComponent<Carente_animation>();
+        Cmovimento = GetComponent<Carente_movimento>();
     }
 
     void Update()
@@ -62,7 +64,7 @@ public class Carente_ciclos : MonoBehaviour
         {
             
             estadoAtual = Estado.Correr;
-            
+            Canimation.SetPular();
             Debug.Log("Player detectado!");
         }
         yield return new WaitForSeconds(1f);
@@ -73,13 +75,29 @@ public class Carente_ciclos : MonoBehaviour
     IEnumerator estadoCorrer()
     {
         executandoEstado = true;
-        yield return new WaitForSeconds(1f);
+        
+        bool ladoAlado = Cmovimento.ladoAlado();
+        
+        Cmovimento.saltar();
+        if(ladoAlado)
+        {
+            estadoAtual = Estado.cutucar;
+        }
+        else
+        {
+            // Se não chegou, volta para Detectar para tentar novamente
+            estadoAtual = Estado.Detectar;
+        }
+  
         executandoEstado = false;
+        yield return null;
     }
 
     IEnumerator estadoCutucar()
     {
         executandoEstado = true;
+        Debug.Log("Estado: Cutucar");
+        Canimation.SetCutucar();
         yield return new WaitForSeconds(1f);
         executandoEstado = false;
     }

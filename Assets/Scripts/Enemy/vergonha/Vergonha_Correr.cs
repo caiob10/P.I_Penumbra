@@ -28,7 +28,10 @@ public class Vergonha_Correr : MonoBehaviour
         {
             GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
             if (playerObj != null)
+            {
                 Player = playerObj.transform;
+            }
+                    
         }
 
         if (Player != null)

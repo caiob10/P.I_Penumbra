@@ -2,8 +2,8 @@ using UnityEngine;
 using System.Collections;
 public class Carente_movimento : MonoBehaviour
 {
-    public float forcaY = 3f;// altura do pulo
-    public float forcaX = 1.5f;// velocidade do salto
+    float forcaY = 2.5f;// altura do pulo
+    float forcaX = 2f;// velocidade do salto
     //gravidade
     public float gravidade = 1.0f;//subindo
     public Rigidbody2D rb;
@@ -26,25 +26,56 @@ public class Carente_movimento : MonoBehaviour
     
     public void saltar()
     {
-
+       
+        if (Player == null)
+        {
+            
+            Debug.Log("Player é null quando tentou checar ladoAlado");
+            return;
+        }
         if (estouNoChao && Cdeteccao.detectarPlayer())
         {
+            // virar para a direção do player
+            if (Player.position.x > transform.position.x)
+            {
+                transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+
+            }
+            else
+            {
+                transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+
+            }
             // ultima posição tem que receber player .position do deteccao
             //ultimaPosicao = Player.position;
 
             Debug.Log("posição player: " + Player.position);
             Vector2 direcao = ((Vector2)Player.position - (Vector2)transform.position).normalized;
             // essa float é a força necessaria pra chegar no player
-
-            direcao.y += forcaY * 0.1f;
             direcao = direcao.normalized;
             // AddForce em vez de velocity
-            // Usa forcaX 
-            rb.AddForce(direcao * forcaX * rb.mass, ForceMode2D.Impulse);
+            // Usa forcaX
+            rb.AddForce(new Vector2(forcaX * direcao.x, forcaY) * rb.mass, ForceMode2D.Impulse);
             estouNoChao = false;
+            ladoAlado();
         }
     }
-   
+    public bool ladoAlado()
+    {
+       
+
+        float distanciaX = Mathf.Abs(Player.position.x - transform.position.x);
+        if(distanciaX <= 3f)
+        {
+            Debug.Log("Lado a lado com o player");
+            return true;
+        } 
+        else
+        {
+            return false;
+        }
+        
+    }
     private void OnTriggerEnter2D(Collider2D other)
     {
        
@@ -95,4 +126,5 @@ public class Carente_movimento : MonoBehaviour
         Physics2D.IgnoreCollision(GetComponent<Collider2D>(), playerCollider, false);
         
     }
+    
 }

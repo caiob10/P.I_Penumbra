@@ -11,6 +11,7 @@ public class Player_ataque : MonoBehaviour
     // Update is called once per frame
     Animator ani;
     [SerializeField] private AudioSource ataqueUmSom;
+    [SerializeField] private LayerMask enemyLayers;
 
     
     void Start()
@@ -40,17 +41,24 @@ public class Player_ataque : MonoBehaviour
         // impedir que dispare durante a leitura e pulo futuramente...
         if (Input.GetMouseButtonDown(0))
         {   
-            if (!podeAtacar) return;// if reduzido
+            if (!podeAtacar)
+            {
+                return;// if reduzido
+            } 
 
             ataqueUmSom.Play();
+            RaycastHit2D melee = Physics2D.Raycast(origem, dir, alcance, enemyLayers);// disparo do raycast
             ani.SetTrigger("ataque");// dispara a animação de ataque
-            RaycastHit2D melee = Physics2D.Raycast(origem, dir, alcance);// disparo do raycast
+            
             // os inimigos tem tags diferentes, então é preciso checar cada um
             // isso permite atacar mais de um inimigo por vez, se estiverem juntos
             // como cada personagem é unico, o sitema de vida e dano também é unico
             // então é preciso pegar o script de cada um
             if (melee.collider != null)
             {
+                Debug.Log("Collider tag: " + melee.collider.tag);
+                Debug.Log("Collider name: " + melee.collider.name);
+
                 if (melee.collider.CompareTag("Medo"))
                 {
                     Medo_Vida medo = melee.collider.GetComponent<Medo_Vida>();

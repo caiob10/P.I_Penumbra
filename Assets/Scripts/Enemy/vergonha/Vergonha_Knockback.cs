@@ -3,7 +3,7 @@ using System.Collections;
 public class Vergonha_Knockback : MonoBehaviour
 {
     // variavel para empurrar o player pra longe da fogueira
-    public float empurrao = 10.0f;
+    public float empurrao = 5.0f;
 
     public float tempo = 0.5f; // tempo que o player ficara travado
     public Transform Player;
@@ -25,21 +25,21 @@ public class Vergonha_Knockback : MonoBehaviour
             }
         }
     }
-    // void OnTriggerEnter2D(Collider2D other)
-    // {
-    //     if (other.gameObject.CompareTag("Player"))
-    //     {
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
             
-    //         pm = other.GetComponent<Player_Movement>();
-    //         ps = other.GetComponent<Player_Status>();
-    //         ps.LevarDano(9);
-    //         Debug.Log("empurrado");
-    //         //pegar um vetor que sera o player - a fogueira , isso sera a direção
-    //         Vector2 direcao = (other.transform.position - transform.position).normalized;// variavel que define a direção localmente
+            pm = other.GetComponent<Player_Movement>();
+            ps = other.GetComponent<Player_Status>();
+            ps.LevarDano(9);
+            Debug.Log("empurrado");
+            //pegar um vetor que sera o player - a fogueira , isso sera a direção
+            Vector2 direcao = (other.transform.position - transform.position).normalized;// variavel que define a direção localmente
             
-    //         StartCoroutine (knockback(direcao, tempo));
-    //     }   
-    // }
+            StartCoroutine (knockback(direcao, tempo));
+        }   
+    }
 
     public IEnumerator knockback(Vector2 direcao, float tempo)
     {

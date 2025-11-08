@@ -29,7 +29,7 @@ public class Raiva_deteccao : MonoBehaviour
 
     }
    
-     void OnDrawGizmosSelected()
+    void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, raioVisao);

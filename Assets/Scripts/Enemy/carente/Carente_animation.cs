@@ -17,4 +17,8 @@ public class Carente_animation : MonoBehaviour
     {
         ani.SetTrigger("pulando");
     }
+    public void SetCutucar()
+    {
+        ani.SetTrigger("cutucar");
+    }
 }
