@@ -4136,16 +4136,16 @@ MonoBehaviour:
   - "\u2026 "
   - 'Que !#$!% foi essa? '
   nomesDoObjeto:
-  - Dr.Sono
-  - Dr.Sono
+  - Dr.Sonho
+  - Dr.Sonho
   - Dr.Sonho
   - Natalia
-  - Dr.Sono
-  - Dr.Sono
-  - Dr.Sono
-  - Dr.Sono
+  - Dr.Sonho
+  - Dr.Sonho
+  - Dr.Sonho
+  - Dr.Sonho
   - Natalia
-  - Dr.Sono
+  - Dr.Sonho
   - ...
   - Natalia
 --- !u!1 &662587634
@@ -5260,7 +5260,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c5d70647b837404e866c040a725304c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  raioVisao: 15
+  raioVisao: 35
   playerLayer:
     serializedVersion: 2
     m_Bits: 8

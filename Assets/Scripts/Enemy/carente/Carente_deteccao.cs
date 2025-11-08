@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Carente_deteccao : MonoBehaviour
 {
-    public float raioVisao = 15.0f;
+    public float raioVisao = 35.0f;
     public LayerMask playerLayer;
     
     public bool detectarPlayer()
