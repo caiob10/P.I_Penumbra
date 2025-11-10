@@ -85,7 +85,7 @@ public class Player_ataque : MonoBehaviour
                         raiva.LevarDano(9.8f);// aplica 9.8 na varivel dano
                     }
                 }
-                 if (melee.collider.CompareTag("Stalker"))
+                if (melee.collider.CompareTag("Stalker"))
                 {
                     Enemy_Vergonha vergonha = melee.collider.GetComponent<Enemy_Vergonha>();
                     Debug.Log("vergonha atingido");
@@ -96,6 +96,19 @@ public class Player_ataque : MonoBehaviour
                         pk.AlvoKnockBack(melee.collider.gameObject);
                         pk.hitflash(melee.collider.GetComponent<SpriteRenderer>());
                         vergonha.LevarDano(5.8f);// aplica 9.8 na varivel dano
+                    }
+                }
+                if (melee.collider.CompareTag("carente"))
+                {
+                    Carente_movimento carente = melee.collider.GetComponent<Carente_movimento>();
+                    Debug.Log("carente atingido");
+                    //aqui entra a função de dano
+                    if (carente != null)
+                    {
+                        Player_knockBack pk = GetComponent<Player_knockBack>();
+                        pk.AlvoKnockBack(melee.collider.gameObject);
+                        pk.hitflash(melee.collider.GetComponent<SpriteRenderer>());
+                        //carente não pode receber dano
                     }
                 }
                 

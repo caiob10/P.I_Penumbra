@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: a5b27a4f7b18c9a41a31bee426a4583f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1356180693521241182
+    second: Rato_Sheet_Aranha_Sheet_Teias_Decorativas_0
+  - first:
+      213: 3637114855958429863
+    second: Rato_Sheet_Aranha_Sheet_Teias_Decorativas_1
+  - first:
+      213: 7993383027542916112
+    second: Rato_Sheet_Aranha_Sheet_Teias_Decorativas_2
+  - first:
+      213: -8238587085656244614
+    second: Rato_Sheet_Aranha_Sheet_Teias_Decorativas_3
+  - first:
+      213: 3888075810974445899
+    second: Rato_Sheet_Aranha_Sheet_Teias_Decorativas_4
+  - first:
+      213: 7289193723206343512
+    second: Rato_Sheet_Aranha_Sheet_Teias_Decorativas_5
+  - first:
+      213: 7052870335185125991
+    second: Rato_Sheet_Aranha_Sheet_Teias_Decorativas_6
+  - first:
+      213: -6648199133756784552
+    second: Rato_Sheet_Aranha_Sheet_Teias_Decorativas_7
+  - first:
+      213: -2661812047549703469
+    second: Rato_Sheet_Aranha_Sheet_Teias_Decorativas_8
+  - first:
+      213: 2626006626041976655
+    second: Rato_Sheet_Aranha_Sheet_Teias_Decorativas_9
+  - first:
+      213: 3477435390623680594
+    second: Rato_Sheet_Aranha_Sheet_Teias_Decorativas_10
+  - first:
+      213: 7218093752815430561
+    second: Rato_Sheet_Aranha_Sheet_Teias_Decorativas_11
+  - first:
+      213: -9017032069828456476
+    second: Rato_Sheet_Aranha_Sheet_Teias_Decorativas_12
+  - first:
+      213: 7877038586929883826
+    second: Rato_Sheet_Aranha_Sheet_Teias_Decorativas_13
+  - first:
+      213: 1736717516633303464
+    second: Rato_Sheet_Aranha_Sheet_Teias_Decorativas_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Rato_Sheet_Aranha_Sheet_Teias_Decorativas_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 47
+        width: 71
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e549398c72f12d210800000000000000
+      internalID: 1356180693521241182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rato_Sheet_Aranha_Sheet_Teias_Decorativas_1
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 79
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a0c2b4f0b0a97230800000000000000
+      internalID: 3637114855958429863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rato_Sheet_Aranha_Sheet_Teias_Decorativas_2
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 15
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01cf45643833eee60800000000000000
+      internalID: 7993383027542916112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rato_Sheet_Aranha_Sheet_Teias_Decorativas_3
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 15
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7eb65c02b8aaad80800000000000000
+      internalID: -8238587085656244614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rato_Sheet_Aranha_Sheet_Teias_Decorativas_4
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 15
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b41bbe4a95835f530800000000000000
+      internalID: 3888075810974445899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rato_Sheet_Aranha_Sheet_Teias_Decorativas_5
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 15
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85b98ba421b682560800000000000000
+      internalID: 7289193723206343512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rato_Sheet_Aranha_Sheet_Teias_Decorativas_6
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 15
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 762899fb334d0e160800000000000000
+      internalID: 7052870335185125991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rato_Sheet_Aranha_Sheet_Teias_Decorativas_7
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 10
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8500e5c8c1adcb3a0800000000000000
+      internalID: -6648199133756784552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rato_Sheet_Aranha_Sheet_Teias_Decorativas_8
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 9
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dad1feab085f0bd0800000000000000
+      internalID: -2661812047549703469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rato_Sheet_Aranha_Sheet_Teias_Decorativas_9
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 8
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f47dd0bfc13717420800000000000000
+      internalID: 2626006626041976655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rato_Sheet_Aranha_Sheet_Teias_Decorativas_10
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 7
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2580f734015524030800000000000000
+      internalID: 3477435390623680594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rato_Sheet_Aranha_Sheet_Teias_Decorativas_11
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 6
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aba70c6602db2460800000000000000
+      internalID: 7218093752815430561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rato_Sheet_Aranha_Sheet_Teias_Decorativas_12
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 7
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4efc1955b111dd280800000000000000
+      internalID: -9017032069828456476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rato_Sheet_Aranha_Sheet_Teias_Decorativas_13
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 8
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ba20084cdcd05d60800000000000000
+      internalID: 7877038586929883826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rato_Sheet_Aranha_Sheet_Teias_Decorativas_14
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 9
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a9602e316f0a1810800000000000000
+      internalID: 1736717516633303464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Rato_Sheet_Aranha_Sheet_Teias_Decorativas_0: 1356180693521241182
+      Rato_Sheet_Aranha_Sheet_Teias_Decorativas_1: 3637114855958429863
+      Rato_Sheet_Aranha_Sheet_Teias_Decorativas_10: 3477435390623680594
+      Rato_Sheet_Aranha_Sheet_Teias_Decorativas_11: 7218093752815430561
+      Rato_Sheet_Aranha_Sheet_Teias_Decorativas_12: -9017032069828456476
+      Rato_Sheet_Aranha_Sheet_Teias_Decorativas_13: 7877038586929883826
+      Rato_Sheet_Aranha_Sheet_Teias_Decorativas_14: 1736717516633303464
+      Rato_Sheet_Aranha_Sheet_Teias_Decorativas_2: 7993383027542916112
+      Rato_Sheet_Aranha_Sheet_Teias_Decorativas_3: -8238587085656244614
+      Rato_Sheet_Aranha_Sheet_Teias_Decorativas_4: 3888075810974445899
+      Rato_Sheet_Aranha_Sheet_Teias_Decorativas_5: 7289193723206343512
+      Rato_Sheet_Aranha_Sheet_Teias_Decorativas_6: 7052870335185125991
+      Rato_Sheet_Aranha_Sheet_Teias_Decorativas_7: -6648199133756784552
+      Rato_Sheet_Aranha_Sheet_Teias_Decorativas_8: -2661812047549703469
+      Rato_Sheet_Aranha_Sheet_Teias_Decorativas_9: 2626006626041976655
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

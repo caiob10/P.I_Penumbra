@@ -55,7 +55,8 @@ public class Carente_movimento : MonoBehaviour
             direcao = direcao.normalized;
             // AddForce em vez de velocity
             // Usa forcaX
-            rb.AddForce(new Vector2(forcaX * direcao.x, forcaY) * rb.mass, ForceMode2D.Impulse);
+            //rb.AddForce(new Vector2(forcaX * direcao.x, forcaY) * rb.mass, ForceMode2D.Impulse);
+            rb.linearVelocity = new Vector2(forcaX * direcao.x, forcaY);
             estouNoChao = false;
             ladoAlado();
         }

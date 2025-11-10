@@ -21,6 +21,7 @@ TagManager:
   - LuzDeVisao
   - luz_interna
   - sairDoQuarto
+  - carente
   layers:
   - Default
   - TransparentFX

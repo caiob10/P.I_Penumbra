@@ -98,20 +98,25 @@ public class Carente_ciclos : MonoBehaviour
         executandoEstado = true;
         Debug.Log("Estado: Cutucar");
         Canimation.SetCutucar();
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.5f);
+        estadoAtual = Estado.Esperar;
         executandoEstado = false;
     }
 
     IEnumerator estadoEsperar()
     {
         executandoEstado = true;
-         yield return new WaitForSeconds(1f);
+        Canimation.SetIdle();   
+        yield return new WaitForSeconds(0.5f);
+        estadoAtual = Estado.Detectar;
         executandoEstado = false;
     }
     IEnumerator estadoReiniciar()
     {
         executandoEstado = true;
-         yield return new WaitForSeconds(1f);
+        Canimation.SetIdle();   
+        yield return new WaitForSeconds(1f);
+        estadoAtual = Estado.Detectar;
         executandoEstado = false;
     }
 }

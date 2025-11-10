@@ -3,10 +3,10 @@ using System.Collections;
 using System.Collections.Generic;
 public class Player_knockBack : MonoBehaviour
 {
-     // variavel para empurrar o player pra longe da fogueira
-    public float empurrao = 1.0f;
+    // variavel para empurrar o player pra longe da fogueira
+    float empurrao = 1.0f;
 
-    public float tempo = 0.5f; // tempo que o inimigo ficara travado e tem que ser menbor que o tempo do proximo ataque
+    float tempo = 1f; // tempo que o inimigo ficara travado e tem que ser menbor que o tempo do proximo ataque
     public void hitflash(SpriteRenderer sr)
     {
         StartCoroutine(Flash(sr));
@@ -87,7 +87,7 @@ public class Player_knockBack : MonoBehaviour
             //zerar o movimento do player vai impedir de adicionar outra força antes de completar o ciclo
             rbInimigo.linearVelocity = Vector2.zero;
             // aqui dentro vai ser garantido que o personagem continuara sendo repelido 
-            Vector2 forcaExtra = new Vector2(direcao.x, empurrao * 0.2f);// uma força extra para cima sem mechar no eixo X
+            Vector2 forcaExtra = new Vector2(0, direcao.y * empurrao + (empurrao * 0.5f));// uma força extra para cima sem mechar no eixo X
             //adiciona uma força (lembrando que é a posicao - a posicao do outro)
             rbInimigo.AddForce(forcaExtra * empurrao, ForceMode2D.Impulse);
         }
