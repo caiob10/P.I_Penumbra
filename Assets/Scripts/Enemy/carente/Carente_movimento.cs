@@ -3,15 +3,17 @@ using System.Collections;
 public class Carente_movimento : MonoBehaviour
 {
     float forcaY = 2.5f;// altura do pulo
-    float forcaX = 2f;// velocidade do salto
+    float forcaX = 1.8f;// velocidade 
     //gravidade
     public float gravidade = 1.0f;//subindo
     public Rigidbody2D rb;
     Carente_deteccao Cdeteccao;
     Animator ani;
     public bool estouNoChao;
+    public bool possoAndar = false;
     //player
     Transform Player;
+    
     // inspetor para monitoramento  
     void Start()
     {
@@ -26,39 +28,42 @@ public class Carente_movimento : MonoBehaviour
     
     public void saltar()
     {
-       
-        if (Player == null)
+        if (possoAndar)
         {
-            
-            Debug.Log("Player é null quando tentou checar ladoAlado");
-            return;
-        }
-        if (estouNoChao && Cdeteccao.detectarPlayer())
-        {
-            // virar para a direção do player
-            if (Player.position.x > transform.position.x)
+            if (Player == null)
             {
-                transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
-
+                
+                Debug.Log("Player é null quando tentou checar ladoAlado");
+                return;
             }
-            else
+            if (estouNoChao && Cdeteccao.detectarPlayer())
             {
-                transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+                // virar para a direção do player
+                if (Player.position.x > transform.position.x)
+                {
+                    transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
 
+                }
+                else
+                {
+                    transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+
+                }
+                // ultima posição tem que receber player .position do deteccao
+                //ultimaPosicao = Player.position;
+
+                Debug.Log("posição player: " + Player.position);
+                Vector2 direcao = ((Vector2)Player.position - (Vector2)transform.position).normalized;
+                // essa float é a força necessaria pra chegar no player
+                direcao = direcao.normalized;
+                // AddForce em vez de velocity
+                // Usa forcaX
+                //rb.AddForce(new Vector2(forcaX * direcao.x, forcaY) * rb.mass, ForceMode2D.Impulse);
+                rb.linearVelocity = new Vector2(forcaX * direcao.x, forcaY);
+                estouNoChao = false;
+                ladoAlado();
             }
-            // ultima posição tem que receber player .position do deteccao
-            //ultimaPosicao = Player.position;
-
-            Debug.Log("posição player: " + Player.position);
-            Vector2 direcao = ((Vector2)Player.position - (Vector2)transform.position).normalized;
-            // essa float é a força necessaria pra chegar no player
-            direcao = direcao.normalized;
-            // AddForce em vez de velocity
-            // Usa forcaX
-            //rb.AddForce(new Vector2(forcaX * direcao.x, forcaY) * rb.mass, ForceMode2D.Impulse);
-            rb.linearVelocity = new Vector2(forcaX * direcao.x, forcaY);
-            estouNoChao = false;
-            ladoAlado();
+        
         }
     }
     public bool ladoAlado()
@@ -66,7 +71,7 @@ public class Carente_movimento : MonoBehaviour
        
 
         float distanciaX = Mathf.Abs(Player.position.x - transform.position.x);
-        if(distanciaX <= 3f)
+        if(distanciaX <= 2.5f)
         {
             Debug.Log("Lado a lado com o player");
             return true;
@@ -82,11 +87,12 @@ public class Carente_movimento : MonoBehaviour
        
         if (other.CompareTag("Player"))
         {
-            Player_Status ps = other.GetComponent<Player_Status>();
-            if (ps != null)
-            {
-                ps.LevarDano(3);
-            }
+            //carente não pode caudar dano 
+            // Player_Status ps = other.GetComponent<Player_Status>();
+            // if (ps != null)
+            // {
+            //     ps.LevarDano(3);
+            // }
             if(!estouNoChao && rb.linearVelocity.y <= 0f)
             {
                 //Impacto();// aplicando no momento de queda // gerou conflito com o knockback

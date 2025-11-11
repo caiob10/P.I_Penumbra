@@ -57,6 +57,7 @@ public class Carente_ciclos : MonoBehaviour
     IEnumerator estadoDetectar()
     {
         executandoEstado = true;
+        Cmovimento.possoAndar = false;
         Debug.Log("Estado: Detectar");
         Canimation.SetIdle();   
         //setar trigger de animação idle
@@ -75,10 +76,12 @@ public class Carente_ciclos : MonoBehaviour
     IEnumerator estadoCorrer()
     {
         executandoEstado = true;
-        
-        bool ladoAlado = Cmovimento.ladoAlado();
+        Cmovimento.possoAndar = true;
         
         Cmovimento.saltar();
+        
+        
+        bool ladoAlado = Cmovimento.ladoAlado();
         if(ladoAlado)
         {
             estadoAtual = Estado.cutucar;
@@ -86,7 +89,9 @@ public class Carente_ciclos : MonoBehaviour
         else
         {
             // Se não chegou, volta para Detectar para tentar novamente
+            Cmovimento.possoAndar = false;
             estadoAtual = Estado.Detectar;
+            
         }
   
         executandoEstado = false;
@@ -96,8 +101,9 @@ public class Carente_ciclos : MonoBehaviour
     IEnumerator estadoCutucar()
     {
         executandoEstado = true;
+        Cmovimento.possoAndar = false;
         Debug.Log("Estado: Cutucar");
-        Canimation.SetCutucar();
+        //Canimation.SetCutucar();
         yield return new WaitForSeconds(0.5f);
         estadoAtual = Estado.Esperar;
         executandoEstado = false;
@@ -107,7 +113,7 @@ public class Carente_ciclos : MonoBehaviour
     {
         executandoEstado = true;
         Canimation.SetIdle();   
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(3.5f);
         estadoAtual = Estado.Detectar;
         executandoEstado = false;
     }
@@ -115,7 +121,7 @@ public class Carente_ciclos : MonoBehaviour
     {
         executandoEstado = true;
         Canimation.SetIdle();   
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.5f);
         estadoAtual = Estado.Detectar;
         executandoEstado = false;
     }

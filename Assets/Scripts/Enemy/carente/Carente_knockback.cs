@@ -2,16 +2,17 @@ using UnityEngine;
 using System.Collections;
 public class Carente_knockback : MonoBehaviour
 {
-     public float empurrao = 5.0f;
+    float empurrao = 6.0f;
 
-    public float tempo = 0.5f; // tempo que o player ficara travado
+    float tempo = 0.5f; // tempo que o player ficara travado
     public Transform Player;
     Player_Movement pm;
     public Rigidbody2D playerRb; // referencia para o rigidbody do player
+    Animator ani;
 
      void Awake()
     {
-        
+
         if (Player == null)
         {
             GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
@@ -19,15 +20,16 @@ public class Carente_knockback : MonoBehaviour
             {
                 Player = playerObj.transform;//localizacao
                 playerRb = playerObj.GetComponent<Rigidbody2D>();//rigidbody2d
-                
+
             }
         }
+        ani = GetComponent<Animator>();
     }
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            
+            ani.SetTrigger("cutucar");
             pm = other.GetComponent<Player_Movement>();
 
             Debug.Log("empurrado pelo carente");

@@ -5635,6 +5635,7 @@ MonoBehaviour:
   gravidade: 1
   rb: {fileID: 0}
   estouNoChao: 0
+  possoAndar: 0
 --- !u!114 &826483511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5647,8 +5648,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca5f39ce70c67d949af7a96690a286b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  empurrao: 10
-  tempo: 0.5
   Player: {fileID: 1580216140}
   playerRb: {fileID: 1580216141}
 --- !u!212 &826483512
@@ -5755,7 +5754,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.03816986, y: 1.0364561}
+  m_Offset: {x: -0.072883606, y: 0.9645195}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
@@ -5765,7 +5764,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2.2595367, y: 2.0786304}
+  m_Size: {x: 1.5146942, y: 1.7526474}
   m_EdgeRadius: 0
 --- !u!61 &826483515
 BoxCollider2D:
@@ -5801,7 +5800,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.047698975, y: 1.0429506}
+  m_Offset: {x: -0.08218384, y: 0.97101593}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
@@ -5811,7 +5810,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2.240448, y: 2.0595455}
+  m_Size: {x: 1.5254517, y: 1.7335663}
   m_EdgeRadius: 0
 --- !u!50 &826483516
 Rigidbody2D:
