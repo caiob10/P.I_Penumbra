@@ -23,7 +23,7 @@ public class casa_Manager : MonoBehaviour
         corredor = GameObject.Find("Corredor").transform;
         quartoNatalia = GameObject.Find("Interno_Quarto_Natalia").transform;
         portaNatalia = GameObject.Find("Porta_Quarto_Natalia").transform;
-        quartoJuliana = GameObject.Find("InternoQuartoJuliana").transform;
+        quartoJuliana = GameObject.Find("Interno_Quarto_Juliana").transform;
         portaJuliana = GameObject.Find("Porta_Quarto_Juliana").transform;
 
     }
@@ -48,9 +48,16 @@ public class casa_Manager : MonoBehaviour
     public void entrarNoQuartoJuliana()
     {
         player.position = quartoJuliana.position;
+        Debug.Log(quartoJuliana.position);
     }
     public void sairDoQuartoJuliana()
     {
         player.position = portaJuliana.position;
     }
+
+
+    //private void Update()
+    //{
+    //    Debug.Log(quartoJuliana.position);
+    //}
 }   
