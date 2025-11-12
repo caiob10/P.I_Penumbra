@@ -16,9 +16,11 @@ public class Medo_ciclo : MonoBehaviour
     public Medo_Disparo mDisparo;
     Medo_Investida mInvestida;
     public Medo_Tamanho mTamanho;
+    public Medo_animator mAnimator;
     public int tipoAtaque;
     public float tempoUpdate = 0.0f; //tempo incrementado no update
     public float tempoDesejadoUpdate = 1f; // tempo final desejado
+    bool executandoEstado = false;
     // divisão de 1 segundo dividido pelo valor dos quadros .
     // 60 quadros(tempo do update normalmente)
     // 0.0167f	60x
@@ -38,6 +40,7 @@ public class Medo_ciclo : MonoBehaviour
         mDisparo = GetComponent<Medo_Disparo>();
         mInvestida = GetComponent<Medo_Investida>();
         mTamanho = GetComponent<Medo_Tamanho>();
+        mAnimator = GetComponent<Medo_animator>();
     }
 
    void Update()
@@ -52,40 +55,17 @@ public class Medo_ciclo : MonoBehaviour
             {
                 
                 case Estado.Detectar:
-                    if(md.detectarPlayer())
-                    {
-                        
-                        Debug.Log(estadoAtual);
-                        estadoAtual = Estado.SortearAtaque;
-                    }
-                 
+                    StartCoroutine(estadoDetectar());
                     break;
                 case Estado.SortearAtaque:
-                    tipoAtaque = Random.Range(1, 3);
-                    if (tipoAtaque == 1)
-                    {
-                        //investida
-                        tipoAtaque = 0;
-                        mInvestida.StartCoroutine(mInvestida.Investida(5f));
-                        
-                        
-                       
-                    }
-                    if(tipoAtaque ==2)
-                    {
-                        tipoAtaque = 0;
-                        mDisparo.Disparo();
-                        estadoAtual = Estado.aumentarTamanho;
-                        
-                    }
+                    StartCoroutine(SortearAtaque());
                     break;
 
                 case Estado.aumentarTamanho:
 
-
-                    mTamanho.StartCoroutine(mTamanho.aumentarTamanho(0.1f));
+                    StartCoroutine(aumentarTamanho());
                     break;
-
+                    
                 case Estado.Esperar:
                     StartCoroutine(cooldown(0.5f));
                     Debug.Log("fim de ciclo");
@@ -101,9 +81,54 @@ public class Medo_ciclo : MonoBehaviour
     }
     
 
-
-    IEnumerator cooldown(float tempo)
+    IEnumerator estadoDetectar()
     {
+        executandoEstado = true;
+        mAnimator.SetIdle();
+        
+        if (md.detectarPlayer())
+        {
+            
+            estadoAtual = Estado.SortearAtaque;
+
+            Debug.Log("Player detectado! Mudando para o estado SortearAtaque.");
+        }
+
+        executandoEstado = false;
+        yield return null;
+    }
+    IEnumerator SortearAtaque()
+    {
+        executandoEstado = true;
+        //lógica para sortear o ataque
+        tipoAtaque = Random.Range(1, 3);
+        if (tipoAtaque == 1)
+        {
+            //investida
+            mAnimator.SetInvestida();
+            tipoAtaque = 0;
+            mInvestida.StartCoroutine(mInvestida.Investida(5f));
+        }
+        if(tipoAtaque ==2)
+        {
+            tipoAtaque = 0;
+            mDisparo.Disparo();
+            estadoAtual = Estado.aumentarTamanho;
+            
+        }
+        executandoEstado = false;
+        yield return null;
+    }
+    IEnumerator aumentarTamanho()
+    {
+        mAnimator.SetIdle();
+        executandoEstado = true;
+        mTamanho.StartCoroutine(mTamanho.aumentarTamanho(0.1f));
+        executandoEstado = false;
+        yield return null;
+    }
+    IEnumerator cooldown(float tempo)
+    {   
         yield return new WaitForSeconds(tempo);
         estadoAtual = Estado.Reiniciar;
     }

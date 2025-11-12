@@ -2,7 +2,8 @@ using UnityEngine;
 
 public class Medo_Vida : MonoBehaviour
 {
-    [HideInInspector]public float vida = 100;
+    // [HideInInspector]
+    public float vida = 100;
     //private bool visão = true;
    
     public void LevarDano(float danoRecebido)

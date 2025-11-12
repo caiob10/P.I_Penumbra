@@ -1402,11 +1402,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2571982756487584162, guid: caf769979840f7a43aaa96e776682798, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -128
+      value: -70.9
       objectReference: {fileID: 0}
     - target: {fileID: 2571982756487584162, guid: caf769979840f7a43aaa96e776682798, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -69.09
+      value: 67.9
       objectReference: {fileID: 0}
     - target: {fileID: 2571982756487584162, guid: caf769979840f7a43aaa96e776682798, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4218,6 +4218,7 @@ GameObject:
   - component: {fileID: 654142725}
   - component: {fileID: 654142724}
   - component: {fileID: 654142723}
+  - component: {fileID: 654142732}
   - component: {fileID: 654142729}
   - component: {fileID: 654142722}
   - component: {fileID: 654142719}
@@ -4225,6 +4226,7 @@ GameObject:
   - component: {fileID: 654142727}
   - component: {fileID: 654142728}
   - component: {fileID: 654142730}
+  - component: {fileID: 654142731}
   m_Layer: 9
   m_Name: Medo
   m_TagString: Medo
@@ -4292,7 +4294,7 @@ SpriteRenderer:
   m_SortingLayerID: -826507199
   m_SortingLayer: 4
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 2118566190421744120, guid: ed078f3091737f34f9c71d235e9cd43e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4312,7 +4314,7 @@ Transform:
   m_GameObject: {fileID: 654142718}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -92.1, y: 68.4, z: 0}
+  m_LocalPosition: {x: -90.7, y: 71.1, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4331,7 +4333,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   estadoAtual: 0
-  batalhaAtivada: 1
+  batalhaAtivada: 0
   mDisparo: {fileID: 0}
   mTamanho: {fileID: 0}
   tipoAtaque: 0
@@ -4398,17 +4400,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.050378144, y: 0.024903}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.7666667, y: 2.4666667}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.1007562, y: 2.4279833}
   m_EdgeRadius: 0
 --- !u!61 &654142725
 BoxCollider2D:
@@ -4444,17 +4446,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.04478073, y: 0.029534042}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.7666667, y: 2.4666667}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.0895612, y: 2.4187212}
   m_EdgeRadius: 0
 --- !u!114 &654142726
 MonoBehaviour:
@@ -4514,7 +4516,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88727f0df0c2a6b4883e73438a1b77bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vida: 5
+  vida: 100
 --- !u!114 &654142730
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4528,6 +4530,40 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tamanhoAcumulado: 0
+--- !u!95 &654142731
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 654142718}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2c88932effa6b324d8cba8e9ee0ecf41, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &654142732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 654142718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03303893715452044bf3021aa12b26b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &660137789
 GameObject:
   m_ObjectHideFlags: 0
@@ -35119,7 +35155,7 @@ Transform:
   m_GameObject: {fileID: 1649691961}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -47.2, y: -62.9, z: -10}
+  m_LocalPosition: {x: -126.36, y: -64.54, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
