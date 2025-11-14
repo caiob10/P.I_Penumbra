@@ -1402,11 +1402,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2571982756487584162, guid: caf769979840f7a43aaa96e776682798, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -70.9
+      value: -112
       objectReference: {fileID: 0}
     - target: {fileID: 2571982756487584162, guid: caf769979840f7a43aaa96e776682798, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 67.9
+      value: -67.9
       objectReference: {fileID: 0}
     - target: {fileID: 2571982756487584162, guid: caf769979840f7a43aaa96e776682798, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2409,6 +2409,7 @@ MonoBehaviour:
   playerLayer:
     serializedVersion: 2
     m_Bits: 8
+  Player: {fileID: 0}
 --- !u!114 &284774698
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4250,6 +4251,7 @@ MonoBehaviour:
   playerLayer:
     serializedVersion: 2
     m_Bits: 8
+  Player: {fileID: 1580216140}
 --- !u!212 &654142720
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4314,8 +4316,8 @@ Transform:
   m_GameObject: {fileID: 654142718}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -90.7, y: 71.1, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_LocalPosition: {x: -90.8, y: 68, z: 0}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -4333,9 +4335,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   estadoAtual: 0
-  batalhaAtivada: 0
+  batalhaAtivada: 1
   mDisparo: {fileID: 0}
   mTamanho: {fileID: 0}
+  mAnimator: {fileID: 0}
   tipoAtaque: 0
   tempoUpdate: 0
   tempoDesejadoUpdate: 1
@@ -9166,7 +9169,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidadeX: 0
-  velocidadeY: 0.29
+  velocidadeY: 0.029
   cameraTransform: {fileID: 1649691964}
 --- !u!212 &1251615305
 SpriteRenderer:

@@ -27,7 +27,7 @@ public class Medo_Tamanho : MonoBehaviour
     public IEnumerator aumentarTamanho(float tempo)
     {
 
-        while(tamanhoAcumulado<=20 && tempoAtual<=tempo)
+        while(tamanhoAcumulado<=15 && tempoAtual<=tempo)
         {
 
             tempoAtual += Time.deltaTime;

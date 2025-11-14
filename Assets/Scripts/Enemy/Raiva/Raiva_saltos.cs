@@ -107,6 +107,7 @@ public class Raiva_saltos : MonoBehaviour
             if (!estouNoChao && rb.linearVelocity.y < -9f)
             {
                 cf.shake(0.5f);
+                rb.linearVelocity = Vector2.zero;
                 Impacto();// aplicando no momento de queda
             }
 
@@ -137,6 +138,7 @@ public class Raiva_saltos : MonoBehaviour
         if (Collision.gameObject.layer == LayerMask.NameToLayer("Chao"))
         {
             estouNoChao = true;
+            
             rb.gravityScale = gravidade;
         }
 

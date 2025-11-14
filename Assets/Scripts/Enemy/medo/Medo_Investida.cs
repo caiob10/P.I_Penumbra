@@ -28,8 +28,18 @@ public class Medo_Investida : MonoBehaviour
     }
     public IEnumerator Investida(float tempo)
     {
+        
         float tempoDecorrido = 0;
-       
+        if(Player.position.x > transform.position.x)
+            {
+                transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+
+            }
+            else
+            {
+                transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
+
+            }
         velocidade = 7.0f;
         direcao = ( Player.position-transform.position ).normalized;
         alvo = (Vector2)Player.position + direcao;// ponto final do movimento
@@ -39,6 +49,7 @@ public class Medo_Investida : MonoBehaviour
             transform.position = Vector2.MoveTowards(transform.position, alvo, velocidade * Time.deltaTime);
             yield return null;
         }
+        
         mc.estadoAtual = Medo_ciclo.Estado.aumentarTamanho;
     }
     void OnTriggerEnter2D(Collider2D other)
@@ -47,7 +58,6 @@ public class Medo_Investida : MonoBehaviour
         {
             
             StopCoroutine("Investida"); // Para a coroutine pelo nome                  
-            mc.mDisparo.Disparo();
             mc.estadoAtual = Medo_ciclo.Estado.aumentarTamanho;
             
            

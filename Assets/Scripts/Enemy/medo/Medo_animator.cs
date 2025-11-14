@@ -19,7 +19,7 @@ public class Medo_animator : MonoBehaviour
     }
     public void SetDisparo()
     {
-
+        ani.SetTrigger("disparo");
     }
     
 }

@@ -101,21 +101,29 @@ public class Medo_ciclo : MonoBehaviour
     {
         executandoEstado = true;
         //lógica para sortear o ataque
-        tipoAtaque = Random.Range(1, 3);
+        tipoAtaque = Random.Range(1, 4);
         if (tipoAtaque == 1)
         {
             //investida
-            mAnimator.SetInvestida();
             tipoAtaque = 0;
+            mAnimator.SetInvestida();
             mInvestida.StartCoroutine(mInvestida.Investida(5f));
+            
         }
         if(tipoAtaque ==2)
         {
             tipoAtaque = 0;
+            mAnimator.SetDisparo();
             mDisparo.Disparo();
             estadoAtual = Estado.aumentarTamanho;
-            
         }
+        if(tipoAtaque ==3)
+        {
+            tipoAtaque = 0;
+            mAnimator.SetInvestida();
+            mInvestida.StartCoroutine(mInvestida.Investida(5f));
+        }
+        
         executandoEstado = false;
         yield return null;
     }
