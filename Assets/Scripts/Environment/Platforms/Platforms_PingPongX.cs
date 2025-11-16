@@ -4,10 +4,10 @@ public class Platforms_PingPongX : MonoBehaviour
 {
     Vector2 PosicaoAx; // vetor para receber posição atual
     Vector2 PosicaoBx; // recebe posição atual+ deslocamento
-    Vector2 Deslocamento = new Vector2(25, 0);
+    [SerializeField] private Vector2 Deslocamento = new Vector2(25, 0);
     
 
-    float Velocidade = 0.5f; // velocidade de movimento
+    [SerializeField] private float Velocidade = 0.5f; // velocidade de movimento
     //public float Direcao = 1; // se for positivo, anda pra direita e negativo para a esquerda
 
     void Start()

@@ -55,19 +55,19 @@ public class Player_Collision : MonoBehaviour
     }
 
     // trigger para saltos
-    private void OnCollisionStay2D(Collision2D Collision)
-    {
-        if (Collision.gameObject.CompareTag("Plataforma"))
-        {
-            pm.noChao = true;
-        }
+    //private void OnCollisionStay2D(Collision2D Collision)
+    //{
+    //    if (Collision.gameObject.CompareTag("Plataforma"))
+    //    {
+    //        pm.noChao = true;
+    //    }
         
-        if (Collision.gameObject.layer == LayerMask.NameToLayer("Chao"))
-        {
-            pm.noChao = true;
-        }
+    //    if (Collision.gameObject.layer == LayerMask.NameToLayer("Chao"))
+    //    {
+    //        pm.noChao = true;
+    //    }
 
-    }
+    //}
     void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("sairDoQuarto"))

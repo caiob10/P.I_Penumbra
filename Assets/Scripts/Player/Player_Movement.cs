@@ -9,10 +9,13 @@ public class Player_Movement : MonoBehaviour
     //public bool possoAndar; ia usar para bloquar andar quando empurrado
 
     //variaveis
-    float Velocidade = 16.0f;
-    float EscalaGravidade = 1f;
-    float ForcaGravidade = 7.0f;
-    float ForcaPulo = 10.0f;
+    [SerializeField] private float Velocidade = 16.0f;
+    
+    [SerializeField] private float ForcaGravidadePulo = 2f;
+    [SerializeField] private float ForcaGravidadeQueda = 2f;
+    [SerializeField] private float ForcaPulo = 600f;
+    bool podePular = true;
+
     // andar
     public float vr{ get; private set; }// essa nova configuração permite pegar variaveis mas nao alteralas
     public float hr{ get; private set; }
@@ -30,7 +33,8 @@ public class Player_Movement : MonoBehaviour
    private Player_Collision pc;
 
     [SerializeField] private AudioSource andarAudio;
-
+    [SerializeField] private LayerMask cenarioLayer;
+    [SerializeField] private Transform pePlayer;
 
     void Start()
     {
@@ -50,52 +54,81 @@ public class Player_Movement : MonoBehaviour
     {
         velY = rb.linearVelocityY;
         Movimento();
-        if (!noChao)
-        {
-            if (velY > 0.1f)
-            {
-                ani.ResetTrigger("caindo");
-                ani.SetTrigger("pulando");
-            }
-            else if (velY < -0.1f)
-            {
-                ani.ResetTrigger("pulando");
-                ani.SetTrigger("caindo");
-            }
-            //limitar queda
-            if (rb.linearVelocity.y <= -10)
-            {
-                rb.linearVelocity = new Vector2(rb.linearVelocity.x, -10);
-            }
-        }
+        
         Pular();
         // valorInput = rb.linearVelocity.x;
         if (rb.linearVelocity.y > 0)
         {
-            rb.gravityScale = EscalaGravidade;
+            rb.gravityScale = ForcaGravidadePulo;
         }
         else if (rb.linearVelocity.y < 0)
         {
-            rb.gravityScale = ForcaGravidade;
+            rb.gravityScale = ForcaGravidadeQueda;
+        }
+        else
+        {
+            rb.gravityScale = 1f;
         }
 
-        
+        noChao = Physics2D.OverlapCircle(pePlayer.position, 0.3f, cenarioLayer);
+
     }
+
+
+    private void FixedUpdate()
+    {
+        if (!noChao)
+        {
+            Velocidade = 8f;
+        }
+        else
+        {
+            Velocidade = 16f;
+        }
+
+
+
+        if (noChao)
+        {
+            //ani.ResetTrigger("caindo");
+            ani.SetTrigger("idle");
+        }
+
+
+        if (velY > 0.1f)
+        {
+            ani.ResetTrigger("caindo");
+            ani.SetTrigger("pulando");
+        }
+        else if (velY < -0.1f)
+        {
+            ani.ResetTrigger("pulando");
+            ani.SetTrigger("caindo");
+        }
+
+        //limitar queda
+        if (rb.linearVelocity.y <= -10)
+        {
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, -10);
+        }
+
+    }
+
 
     private void Movimento()
     {
         hr = Input.GetAxis("Horizontal");
         //vr = Input.GetAxis("Vertical");
-        if (possoAndar == true)
+        if (possoAndar)
         {
 
-            rb.linearVelocity = new Vector2(hr * Velocidade, rb.linearVelocity.y);
+            rb.linearVelocityX = hr * Velocidade;
             ani.SetFloat("correndo", Mathf.Abs(hr));
-            if (hr == 0)
-            {
-                rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);// estou testando remover a desaceleração por causa da escada
-                ani.SetFloat("correndo", 0f);
-            }
+            //if (hr == 0)
+            //{
+            //    rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);// estou testando remover a desaceleração por causa da escada
+            //    ani.SetFloat("correndo", 0f);
+            //}
 
         }
         else
@@ -133,12 +166,13 @@ public class Player_Movement : MonoBehaviour
 
     private void Pular()
     {
-        if (noChao && Input.GetButtonDown("Jump"))
+        if (podePular && noChao && Input.GetButtonDown("Jump"))
         {
             
             ani.ResetTrigger("caindo");
             ani.SetTrigger("pulando");
-            rb.AddForce(new Vector2(0, 1) * ForcaPulo, ForceMode2D.Impulse);
+            //rb.AddForce(new Vector2(0, 1) * ForcaPulo, ForceMode2D.Impulse);
+            rb.AddForceY(ForcaPulo);
             noChao = false;
             
         }

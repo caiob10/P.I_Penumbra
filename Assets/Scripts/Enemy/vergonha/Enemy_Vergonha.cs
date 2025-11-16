@@ -7,6 +7,7 @@ public class Enemy_Vergonha : MonoBehaviour
 
 {
     public float vida = 100f;
+    public bool vergonhaMorto = false;
 
     public void LevarDano(float danoRecebido)
     {
@@ -20,6 +21,7 @@ public class Enemy_Vergonha : MonoBehaviour
     void Morrer()
     {
         Debug.Log("Vergonha morreu!");
+        vergonhaMorto = true;
         // Aqui você pode adicionar efeitos de morte, animações, etc.
         Destroy(gameObject);
     }

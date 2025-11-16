@@ -423,11 +423,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xA9 2025 Uni\xE3o SISNITRAS. Todos os direitos reservados.\r\nTodo o
-    conte\xFAdo deste jogo, incluindo personagens, narrativa, arte e c\xF3digo, \xE9
-    propriedade intelectual da Uni\xE3o SISNITRAS e est\xE1 protegido por leis de
-    direitos autorais. A reprodu\xE7\xE3o n\xE3o autorizada \xE9 expressamente proibida.
-    :)"
+  m_text: "\xA9 2025 PINGADO STUDIOS. Todos os direitos reservados.\r\nTodo o conte\xFAdo
+    deste jogo, incluindo personagens, narrativa, arte e c\xF3digo, \xE9 propriedade
+    intelectual da PINGADO STUDIOS e est\xE1 protegido por leis de direitos autorais.
+    A reprodu\xE7\xE3o n\xE3o autorizada \xE9 expressamente proibida. :)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: cb610e455e7e8d54bb83301ad0cf6ebe, type: 2}
   m_sharedMaterial: {fileID: -6225426735363164936, guid: cb610e455e7e8d54bb83301ad0cf6ebe, type: 2}
@@ -677,7 +676,9 @@ MonoBehaviour:
   m_text: 'Integrantes:
 
     Caio Bispo, Caique SIlva, Isabelle Vitoria,larissa Kimie
-    e Mateus Ribeiro.'
+    e Mateus Ribeiro.
+
+    Trilhas sonoras produzidas por Arshavin.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: cb610e455e7e8d54bb83301ad0cf6ebe, type: 2}
   m_sharedMaterial: {fileID: -6225426735363164936, guid: cb610e455e7e8d54bb83301ad0cf6ebe, type: 2}
@@ -1108,7 +1109,7 @@ RectTransform:
   m_Father: {fileID: 139301859}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0.903, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1408,11 +1409,11 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0.322
+  m_Value: 0.9
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 447528396}
+      - m_Target: {fileID: 456640777}
         m_TargetAssemblyTypeName: Audio_Manager, Assembly-CSharp
         m_MethodName: MudarVolume
         m_Mode: 0
@@ -1431,13 +1432,16 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 447528393}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4cabbb9abfb59fb448230b46e629ecd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   mixer: {fileID: 24100000, guid: 5c2e0d2a583b24a48895482a44049cbc, type: 2}
   parametro: Master
+  canal: 0
+  volumeConfig: {fileID: 0}
+  slider: {fileID: 0}
   trilhas:
   - {fileID: 8300000, guid: e3846af760ca7af4fb484afdd5404baa, type: 3}
   audioPlayer: {fileID: 456640776}
@@ -1451,6 +1455,7 @@ GameObject:
   m_Component:
   - component: {fileID: 456640775}
   - component: {fileID: 456640776}
+  - component: {fileID: 456640777}
   m_Layer: 0
   m_Name: Trilha
   m_TagString: Untagged
@@ -1570,6 +1575,26 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &456640777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 456640774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cabbb9abfb59fb448230b46e629ecd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mixer: {fileID: 24100000, guid: 5c2e0d2a583b24a48895482a44049cbc, type: 2}
+  parametro: TRILHAS
+  canal: 1
+  volumeConfig: {fileID: 11400000, guid: e0740b382b475d049a5af6cbe2585297, type: 2}
+  slider: {fileID: 447528395}
+  trilhas:
+  - {fileID: 8300000, guid: e3846af760ca7af4fb484afdd5404baa, type: 3}
+  audioPlayer: {fileID: 456640776}
 --- !u!1 &482244853
 GameObject:
   m_ObjectHideFlags: 0
@@ -1929,7 +1954,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 0.903
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2965,8 +2990,8 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 335606194}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMin: {x: 0.9, y: 0}
+  m_AnchorMax: {x: 0.9, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -3759,7 +3784,7 @@ RectTransform:
   m_Father: {fileID: 256994051}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0.9, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -4212,8 +4237,8 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 308991127}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMin: {x: 0.903, y: 0}
+  m_AnchorMax: {x: 0.903, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -4321,8 +4346,8 @@ Transform:
   m_GameObject: {fileID: 1948553344}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 780, y: -350, z: -9719.999}
-  m_LocalScale: {x: 11.167879, y: 11.480282, z: 108}
+  m_LocalPosition: {x: 804, y: -385, z: -9719.999}
+  m_LocalScale: {x: 17.310211, y: 17.794436, z: 167.4}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 377832019}
@@ -4371,7 +4396,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -8004141943606104158, guid: ff8808c78c2fd784c8f7543294dd4de4, type: 3}
+  m_Sprite: {fileID: -7794608731978732669, guid: bf57e72fb7c980948a91185365b9cb6d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
