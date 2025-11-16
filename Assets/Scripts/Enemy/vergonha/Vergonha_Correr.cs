@@ -18,8 +18,8 @@ public class Vergonha_Correr : MonoBehaviour
     // Controle interno
     [HideInInspector] public bool estaCorrendo;
     [HideInInspector] public bool terminouCorrida;
+    [SerializeField] private AudioSource ataque;
 
-    
 
     void Awake()
     {
@@ -62,6 +62,7 @@ public class Vergonha_Correr : MonoBehaviour
 
         // Inicia animação de corrida
         vAnimation.SetCorrer(1f);
+        ataque.Play();
         Vector2 pontoAlvo = (Vector2)Player.position - ((Vector2)Player.position - (Vector2)transform.position).normalized * distanciaMaxima;
 
         float tempoDecorrido = 0f;

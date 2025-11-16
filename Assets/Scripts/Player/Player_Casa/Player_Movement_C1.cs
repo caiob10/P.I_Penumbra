@@ -10,6 +10,8 @@ public class Player_Movement_C1 : MonoBehaviour
     public Animator ani;
     private Player_Collision_C pc;
     //public bool possoAndar; ia usar para bloquar andar quando empurrado
+    private float timer = 0f;
+    [SerializeField] private float tempoParaComeçarAndar = 10f;
 
     //variaveis
     [SerializeField] private float Velocidade = 2.5f;
@@ -34,18 +36,28 @@ public class Player_Movement_C1 : MonoBehaviour
             Debug.Log("rb não encontrado");
             rb = gameObject.AddComponent<Rigidbody2D>();
         }
+
+
+
     }
+
+    
+
 
     // Update is called once per frame
     void Update()
     {
         Movimento();
-       
+        timer += Time.deltaTime;
     }
 
     private void Movimento()
     {
-        hr = 1;
+        if (timer >= tempoParaComeçarAndar)
+        {
+            hr = 1;
+        }
+        
         //vr = Input.GetAxis("Vertical");
         if (possoAndar == true)
         {

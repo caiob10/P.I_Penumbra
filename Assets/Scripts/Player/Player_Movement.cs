@@ -33,6 +33,7 @@ public class Player_Movement : MonoBehaviour
    private Player_Collision pc;
 
     [SerializeField] private AudioSource andarAudio;
+    [SerializeField] private AudioSource puloAudio;
     [SerializeField] private LayerMask cenarioLayer;
     [SerializeField] private Transform pePlayer;
 
@@ -107,10 +108,10 @@ public class Player_Movement : MonoBehaviour
         }
 
         //limitar queda
-        if (rb.linearVelocity.y <= -10)
-        {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, -10);
-        }
+        //if (rb.linearVelocity.y <= -10)
+        //{
+        //    rb.linearVelocity = new Vector2(rb.linearVelocity.x, -10);
+        //}
 
     }
 
@@ -172,6 +173,7 @@ public class Player_Movement : MonoBehaviour
             ani.ResetTrigger("caindo");
             ani.SetTrigger("pulando");
             //rb.AddForce(new Vector2(0, 1) * ForcaPulo, ForceMode2D.Impulse);
+            puloAudio.Play();
             rb.AddForceY(ForcaPulo);
             noChao = false;
             

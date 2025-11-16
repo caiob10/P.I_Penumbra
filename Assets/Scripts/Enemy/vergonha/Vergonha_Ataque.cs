@@ -10,6 +10,8 @@ public class Vergonha_Ataque : MonoBehaviour
     private Vector2 dir; // direção do ataque
     private Vector2 origem; // origem do raycast
 
+    
+
     Vergonha_animation vAnimation;
     Vergonha_Knockback vKnockback;
     BoxCollider2D[] colliders;
@@ -42,6 +44,7 @@ public class Vergonha_Ataque : MonoBehaviour
 
         // Ativa animação de chute
         vAnimation.PlayChutar();
+        
 
         // Dispara raycast imediatamente (pode ajustar para delay via coroutine se quiser sincronizar com frame da animação)
         RaycastHit2D melee = Physics2D.Raycast(origem, dir, alcance);

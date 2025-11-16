@@ -11,6 +11,8 @@ public class Raiva_saltos : MonoBehaviour
     Raiva_deteccao rd;
     public Camera_Effects cf;// colcoar efeito de tremer
     public bool estouNoChao;
+
+    [SerializeField] private AudioSource ataque;
     //player
     Transform Player;
     // inspetor para monitoramento
@@ -56,6 +58,7 @@ public class Raiva_saltos : MonoBehaviour
             // AddForce em vez de velocity
             // Usa forcaX 
             rb.AddForce(direcao * forcaX * rb.mass, ForceMode2D.Impulse);
+            ataque.Play();
             estouNoChao = false;
         }
 

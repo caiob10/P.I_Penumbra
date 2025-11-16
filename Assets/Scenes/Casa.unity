@@ -7015,7 +7015,7 @@ Transform:
   m_GameObject: {fileID: 1288091881}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.8, y: -2.6, z: 0}
+  m_LocalPosition: {x: -81.54, y: -3.11, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -11764,10 +11764,10 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -5038612524089188057, guid: 5c2e0d2a583b24a48895482a44049cbc, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 1f8293798cbad724986d6afe920fdbdc, type: 3}
-  m_Resource: {fileID: 8300000, guid: 1f8293798cbad724986d6afe920fdbdc, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 9fed8fceb43c3f8468109849b651fa03, type: 3}
+  m_Resource: {fileID: 8300000, guid: 9fed8fceb43c3f8468109849b651fa03, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.25
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -13009,7 +13009,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 4
   m_Sprite: {fileID: 5827230045536174849, guid: f44df986ac9ffed49b81ac0d9e402b0a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -13206,7 +13206,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 4
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 3.9653344, y: 1.3149999, z: 0}
   m_MaxChunkCount: 16

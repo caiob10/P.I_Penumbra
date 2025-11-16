@@ -9,7 +9,7 @@ public class Medo_ciclo : MonoBehaviour
     }
     public Estado estadoAtual = Estado.Detectar;
     public bool batalhaAtivada = false;// ativar o ciclo
-
+    [SerializeField] private AudioSource ataque;
 
     //referencia para os outros scripts
     Medo_Deteccao md;
@@ -102,6 +102,7 @@ public class Medo_ciclo : MonoBehaviour
         executandoEstado = true;
         //lógica para sortear o ataque
         tipoAtaque = Random.Range(1, 4);
+        ataque.Play();
         if (tipoAtaque == 1)
         {
             //investida
