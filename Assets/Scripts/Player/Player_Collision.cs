@@ -33,6 +33,10 @@ public class Player_Collision : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E) && possoSair)
         {
+            // esse era o ajujste pra parar de travar ao apertar eeeee
+
+            possoSair = false;
+            //------------------------------------------------------------
             //mudar posição do player para o inicio
             StartCoroutine(teleporte());
             //cameraEffects.StartCoroutine(cameraEffects.fade());
@@ -116,7 +120,7 @@ public class Player_Collision : MonoBehaviour
             // }
             Destroy(collision.gameObject);
         }
-         if (collision.gameObject.CompareTag("sairDoQuarto"))
+        if (collision.gameObject.CompareTag("sairDoQuarto"))
         {
             possoSair = false;
             collision.transform.GetChild(0).gameObject.SetActive(false);//atiar icone da porta

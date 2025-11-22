@@ -103,16 +103,20 @@ public class Vergonha_ciclos : MonoBehaviour
 
     IEnumerator estadoChutar()
     {
+        
+        
         executandoEstado = true;
         Debug.Log("Estado: Atacar");
 
         vAnimation.PlayChutar();
         //yield return new WaitUntil(() => vAnimation.AnimacaoTerminou("Chutar"));
-        yield return new WaitForSeconds(0.2f);
+        //yield return new WaitForSeconds(0.2f);
         // if (estadoAtual == Estado.Detectado)
         // {
         //    yield break;
         // } 
+        yield return new WaitForSeconds(0.2f);
+        yield return null;
         vAtaque.StartCoroutine(vAtaque.Atacar());
         yield return new WaitForSeconds(0.5f);
         estadoAtual = Estado.Esperar;

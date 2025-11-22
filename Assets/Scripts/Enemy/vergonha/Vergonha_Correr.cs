@@ -66,13 +66,13 @@ public class Vergonha_Correr : MonoBehaviour
         Vector2 pontoAlvo = (Vector2)Player.position - ((Vector2)Player.position - (Vector2)transform.position).normalized * distanciaMaxima;
 
         float tempoDecorrido = 0f;
-        while (!colliderCorpo.bounds.Intersects(playerCollider.bounds) && Vector2.Distance(transform.position, pontoAlvo) > 0.1f)
+        while (!colliderCorpo.bounds.Intersects(playerCollider.bounds) && Vector2.Distance(transform.position, pontoAlvo) > 1f)
         {
             tempoDecorrido += Time.deltaTime;
             // se nao der tempo, ele para e reinicia
             if (tempoDecorrido >= tempo)
             {
-                Debug.Log("⏱️ Tempo acabou — reiniciando ciclo...");
+                Debug.Log("Tempo acabou — reiniciando ciclo...");
                 vCiclos.executandoEstado = false;
                 vCiclos.estadoAtual = Vergonha_ciclos.Estado.Reiniciar;
 

@@ -41,14 +41,12 @@ public class Vergonha_Ataque : MonoBehaviour
 
         // Define origem do raycast
         origem = new Vector2(transform.position.x + dir.normalized.x * 1.0f, transform.position.y + deslocamento );
-
+        //vAnimation.PlayChutar();
         // Ativa animação de chute
-        vAnimation.PlayChutar();
         
-
         // Dispara raycast imediatamente (pode ajustar para delay via coroutine se quiser sincronizar com frame da animação)
         RaycastHit2D melee = Physics2D.Raycast(origem, dir, alcance);
-
+        
         if (melee.collider != null)
         {
             if (melee.collider.CompareTag("Player"))
