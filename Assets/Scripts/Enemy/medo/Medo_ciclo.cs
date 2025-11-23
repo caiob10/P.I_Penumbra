@@ -67,7 +67,7 @@ public class Medo_ciclo : MonoBehaviour
                     break;
                     
                 case Estado.Esperar:
-                    StartCoroutine(cooldown(0.5f));
+                    StartCoroutine(cooldown(0.1f));
                     Debug.Log("fim de ciclo");
                     break;
 
