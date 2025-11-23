@@ -32,7 +32,7 @@ public class Vergonha_Knockback : MonoBehaviour
             
             pm = other.GetComponent<Player_Movement>();
             ps = other.GetComponent<Player_Status>();
-            ps.LevarDano(9);
+            ps.LevarDano(2);
             Debug.Log("empurrado");
             //pegar um vetor que sera o player - a fogueira , isso sera a direção
             Vector2 direcao = (other.transform.position - transform.position).normalized;// variavel que define a direção localmente

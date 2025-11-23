@@ -18,8 +18,8 @@ public class Medo_ciclo : MonoBehaviour
     public Medo_Tamanho mTamanho;
     public Medo_animator mAnimator;
     public int tipoAtaque;
-    public float tempoUpdate = 0.0f; //tempo incrementado no update
-    public float tempoDesejadoUpdate = 1f; // tempo final desejado
+    float tempoUpdate = 0.0f; //tempo incrementado no update
+    float tempoDesejadoUpdate = 0.7f; // tempo final desejado
     bool executandoEstado = false;
     // divisão de 1 segundo dividido pelo valor dos quadros .
     // 60 quadros(tempo do update normalmente)
@@ -108,7 +108,7 @@ public class Medo_ciclo : MonoBehaviour
             //investida
             tipoAtaque = 0;
             mAnimator.SetInvestida();
-            mInvestida.StartCoroutine(mInvestida.Investida(5f));
+            mInvestida.StartCoroutine(mInvestida.Investida(4f));
             
         }
         if(tipoAtaque ==2)

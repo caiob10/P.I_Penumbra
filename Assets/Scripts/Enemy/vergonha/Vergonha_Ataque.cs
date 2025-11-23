@@ -59,7 +59,7 @@ public class Vergonha_Ataque : MonoBehaviour
                     Debug.Log("Atingiu o player");
                     vKnockback.StartCoroutine(vKnockback.knockback(direcao, 0.5f));
 
-                    ps.LevarDano(43);// bicuda sinistra
+                    ps.LevarDano(23);// bicuda sinistra
                     // knockback, dano, efeitos, etc.
                 }
 

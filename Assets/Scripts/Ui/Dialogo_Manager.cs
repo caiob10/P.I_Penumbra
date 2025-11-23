@@ -17,6 +17,7 @@ public class Dialogo_Manager : MonoBehaviour
 
     // travar movimento do player
     Player_Movement pm;
+    Player_ataque pa;
     void Awake()
     {
         //pm = GetComponent<Player_Movement_C>();
@@ -24,6 +25,7 @@ public class Dialogo_Manager : MonoBehaviour
         if (player != null)
         {
             pm = player.GetComponent<Player_Movement>();
+            pa = player.GetComponent<Player_ataque>();
         }
         else
         {
@@ -41,6 +43,7 @@ public class Dialogo_Manager : MonoBehaviour
         {
             rb.linearVelocity = Vector2.zero;
         }
+        pa.enabled = false; // desativa o ataque do player durante o diálogo
     }
     void Update()
     {
@@ -77,6 +80,7 @@ public class Dialogo_Manager : MonoBehaviour
         if (textoAtual >= linhasDialogo.Length)
         {
             textoCanvas.SetActive(false); // esconde o balão quando acaba
+            pa.enabled = true; // reativa o ataque do player
             textoAtual = 0; // reinicia se quiser
             pm.possoAndar = true;
 

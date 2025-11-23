@@ -5101,7 +5101,7 @@ MonoBehaviour:
     n\xE3o est\xE1 sozinha, ok?"
   - "Feliz M\xE3e?? Ele \xE9 cego! O que tem de feliz em ser cego??"
   - "Natalia! Eu sei que est\xE1 chateada, mas n\xE3o tolero que grite comigo!"
-  - ..
+  - ...
   - "AAAAHH!!! Isso \xE9 um pesadelo!!"
   - Vou para o meu quarto!
   nomesDoObjeto:
@@ -14414,10 +14414,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   falasDoObjeto:
-  - "Minha filha, o que voc\xEA esta fazendo? J\xE1 s\xE3o 10 horas da manh\xE3."
-  - Eu dormi tarde...Desculpe
-  - "Pelo amor de deus, Natalia, ficou jogando at\xE9 de madrugada de novo? Se eu
-    n\xE3o tivesse de plant\xE3o, tenho certeza que iria ouvir voc\xEA gritando."
+  - "Minha filha, o que voc\xEA esta fazendo?"
+  - Desculpe
+  - "Pelo amor de deus, Natalia, Se eu n\xE3o tivesse de trabalho hoje..."
   - Desculpe...
   nomesDoObjeto:
   - 'Juliana '

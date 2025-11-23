@@ -61,8 +61,8 @@ Material:
     m_Floats:
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _intensidade: -3.2
-    - _intensidade2: 15.86
+    - _intensidade: -8.4
+    - _intensidade2: 16.3
     m_Colors:
     - _Glow: {r: 1, g: 1, b: 1, a: 1}
     - _Glow2: {r: 0.5362295, g: 0.5276844, b: 1, a: 1}

@@ -6,7 +6,7 @@ public class Player_knockBack : MonoBehaviour
     // variavel para empurrar o player pra longe da fogueira
     float empurrao = 1.0f;
 
-    float tempo = 1f; // tempo que o inimigo ficara travado e tem que ser menbor que o tempo do proximo ataque
+    float tempo = 0.01f; // tempo que o inimigo ficara travado e tem que ser menbor que o tempo do proximo ataque
     public void hitflash(SpriteRenderer sr)
     {
         StartCoroutine(Flash(sr));

@@ -45,10 +45,10 @@ public class Player_ataque : MonoBehaviour
             {
                 return;// if reduzido
             } 
-
+            ani.SetTrigger("ataque");// dispara a animação de ataque
             ataqueUmSom.Play();
             RaycastHit2D melee = Physics2D.Raycast(origem, dir, alcance, enemyLayers);// disparo do raycast
-            ani.SetTrigger("ataque");// dispara a animação de ataque
+            
             
             // os inimigos tem tags diferentes, então é preciso checar cada um
             // isso permite atacar mais de um inimigo por vez, se estiverem juntos
@@ -69,7 +69,7 @@ public class Player_ataque : MonoBehaviour
                         Player_knockBack pk = GetComponent<Player_knockBack>();
                         pk.AlvoKnockBack(melee.collider.gameObject);
                         pk.hitflash(melee.collider.GetComponent<SpriteRenderer>());
-                        medo.LevarDano(7.5f);// aplica 7.5 na varivel dano
+                        medo.LevarDano(8.5f);// aplica 7.5 na varivel dano
                     }
                 }
                 if (melee.collider.CompareTag("Raiva"))
@@ -95,7 +95,7 @@ public class Player_ataque : MonoBehaviour
                         Player_knockBack pk = GetComponent<Player_knockBack>();
                         pk.AlvoKnockBack(melee.collider.gameObject);
                         pk.hitflash(melee.collider.GetComponent<SpriteRenderer>());
-                        vergonha.LevarDano(5.8f);// aplica 9.8 na varivel dano
+                        vergonha.LevarDano(9.8f);// aplica 9.8 na varivel dano
                     }
                 }
                 if (melee.collider.CompareTag("carente"))

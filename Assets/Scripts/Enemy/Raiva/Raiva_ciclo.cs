@@ -20,8 +20,8 @@ public class Raiva_ciclo : MonoBehaviour
     // por esse motivo o switch só vai ser checado depois de 10X do tempo normal do update
     
     public bool executandoEstado = false;
-    public float tempoUpdate = 0.0f; //tempo incrementado no update
-    public float tempoDesejadoUpdate = 1f; // tempo final desejado
+     float tempoUpdate = 0.0f; //tempo incrementado no update
+    float tempoDesejadoUpdate = 0.9f; // tempo final desejado
     // divisão de 1 segundo dividido pelo valor dos quadros .
     // 60 quadros(tempo do update normalmente)
     // 0.0167f	60x
