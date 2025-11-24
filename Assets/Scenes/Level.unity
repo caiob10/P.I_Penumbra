@@ -9768,7 +9768,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 0.51240426, b: 0.41960788, a: 1}
-  m_Intensity: 0.5
+  m_Intensity: 0.2
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
   m_ApplyToSortingLayers: 57601c84
@@ -36423,7 +36423,7 @@ Transform:
   m_GameObject: {fileID: 836101682}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.0010841839, w: 0.9999994}
-  m_LocalPosition: {x: 8.39, y: -37.599995, z: 0.10196046}
+  m_LocalPosition: {x: 8.39, y: -38.12, z: 0.10196046}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -104576,7 +104576,7 @@ Transform:
   m_GameObject: {fileID: 1942389616}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.3800007, w: 0.92498624}
-  m_LocalPosition: {x: -31.399994, y: -8.899998, z: 0.10196046}
+  m_LocalPosition: {x: -31.45, y: -9.24, z: 0.10196046}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
